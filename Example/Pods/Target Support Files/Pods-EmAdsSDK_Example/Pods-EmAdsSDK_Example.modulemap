@@ -1,0 +1,6 @@
+framework module Pods_EmAdsSDK_Example {
+  umbrella header "Pods-EmAdsSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module EmCore {
+  umbrella header "EmCore.h"
+  export *
+
+  module * { export * }
+}

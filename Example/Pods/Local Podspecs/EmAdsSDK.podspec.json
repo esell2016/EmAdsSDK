@@ -1,0 +1,40 @@
+{
+  "name": "EmAdsSDK",
+  "version": "1.0.3",
+  "summary": "EmAdsSDK 是一款广告变现的 SDK，由Esell公司研发，将百度、穿山甲、快手、腾讯广告联盟集合到一起，支持瀑布和竞价方式展示广告，使您的收益最大化。",
+  "description": "用法如下：\n略",
+  "homepage": "https://github.com/esell2016/EmAdsSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "esell2016": "zhengqisi@eselltech.com"
+  },
+  "source": {
+    "git": "https://github.com/esell2016/EmAdsSDK.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386 x86_64"
+  },
+  "user_target_xcconfig": {
+    "VALID_ARCHS": "arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386 x86_64"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": [
+    "EmAdsSDK/frameworks/KSAdSDK.xcframework",
+    "EmAdsSDK/frameworks/EmCore.framework",
+    "EmAdsSDK/frameworks/EmAds.framework"
+  ],
+  "resource_bundles": {
+    "EmAdsSDK": [
+      "EmAdsSDK/frameworks/*.bundle"
+    ]
+  }
+}

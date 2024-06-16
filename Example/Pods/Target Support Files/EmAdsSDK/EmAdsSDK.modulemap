@@ -1,0 +1,6 @@
+framework module EmAdsSDK {
+  umbrella header "EmAdsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

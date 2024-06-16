@@ -1,0 +1,11 @@
+framework module EmAds {
+  umbrella header "EmAds.h"
+  export *
+
+  module * { export * }
+}
+
+module EmAds.Swift {
+  header "EmAds-Swift.h"
+  requires objc
+}
