@@ -30,9 +30,9 @@
 1、EmCore.framework,EmAds.framework代码内部处理
 
 2024-06-16      SDK 1.0.3
-1、增加使用Cocoapods自动集成
+1、尝试增加使用Cocoapods自动集成（暂未支持成功）
 
-# 使用Cocoapods自动集成
+# 使用Cocoapods自动集成（暂未支持成功，推荐手动）
   
   在Podfile 中增加
 ```ruby

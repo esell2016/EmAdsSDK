@@ -49,6 +49,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "esell2016" => "zhengqisi@eselltech.com" }
   s.source           = { :git => 'https://github.com/esell2016/EmAdsSDK.git', :tag => "v#{s.version}" }
+  
+  # s.source           = { :git => 'https://github.com/esell2016/EmAdsSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '9.0'
