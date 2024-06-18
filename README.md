@@ -158,7 +158,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
 ### 3、广告集成
 #### 1、Splash 广告集成
 #### Swift
-        ```Swift
+```Swift
         import EmAds
         class SplashViewController: UIViewController {
             var splash: EmSplash?
@@ -206,8 +206,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
                 //广告被点击的回调
             }
         }
-
-        ```
+```
         
            
 #### Objective-C
