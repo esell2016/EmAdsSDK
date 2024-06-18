@@ -30,9 +30,9 @@
 1、EmCore.framework,EmAds.framework代码内部处理
 
 2024-06-16      SDK 1.0.3
-1、尝试增加使用Cocoapods自动集成（暂未支持成功）
+1、增加使用Cocoapods自动集成
 
-# 使用Cocoapods自动集成（暂未支持成功，推荐手动）
+# 使用Cocoapods自动集成
   
   在Podfile 中增加
 ```ruby
@@ -60,6 +60,15 @@ pod 'EmAdsSDK', '~> 1.0.3'
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
 
     代码集成见【三、代码集成】
+    
+    FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
+    【
+    Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Alamofire.ihLdr1
+
+    Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Info.plist.vn2fty
+    】
+    
+    要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 
 # 手动集成EmAds.framework
 
