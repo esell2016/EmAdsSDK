@@ -112,7 +112,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
 
-（4、导入系统库-待定）
+4、导入系统库：已在内部处理，暂不需要手动导入
 
 三、代码集成
 
