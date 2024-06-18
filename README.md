@@ -1,16 +1,16 @@
 
 # 历史版本，iOS EmSDK更新日志
-2024-05-15      SDK 1.0.0 
+##2024-05-15      SDK 1.0.0 
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
-2024-05-20      SDK 1.0.0 
+##2024-05-20      SDK 1.0.0 
 1、版本修改，EmAds.framework 1.0.0, 版本号不改变，支持iOS 9+（含iOS 9）手动导入&通过编译，不crash， 但仅支持iOS 13+ 才能初始化成功并展示广告，优化LOG输出；
 2、增加iOS 13-，调用SDK初始化方法时，返回错误code 20988；
 
-2024-05-21      SDK 1.0.0 
+##2024-05-21      SDK 1.0.0 
 1、修复EmAds.framework 1.0.0 iOS 12 运行crash 的问题
 
-2024-05-22      SDK 1.0.1
+##2024-05-22      SDK 1.0.1
 1、优化SDK， 快手渠道的Intersititial广告声音无法关闭的问题
 2、将其它渠道视频广告能关闭的声音关闭掉
 「
@@ -21,26 +21,26 @@
 」
 
 
-2024-06-03      SDK 1.0.2
+##2024-06-03      SDK 1.0.2
 1、重构瀑布流规则代码；
 2、增加竞价规则代码；
 
 
-2024-06-05      SDK 1.0.3
+##2024-06-05      SDK 1.0.3
 1、EmCore.framework,EmAds.framework代码内部处理
 
-2024-06-16      SDK 1.0.3
+##2024-06-16      SDK 1.0.3
 1、增加使用Cocoapods自动集成
 
-# 使用Cocoapods自动集成
-  
-  在Podfile 中增加
+#使用Cocoapods自动集成
+##在Podfile 中增加
 ```ruby
 pod 'EmAdsSDK', '~> 1.0.3'
 ``` 
   
-  在info.plist 增加
- 
+##在info.plist 增加
+```Objective-C
+
     SKAdNetworkItems - Array
     item0 - Dictionary
         <key>SKAdNetworkIdentifier</key>
@@ -56,44 +56,46 @@ pod 'EmAdsSDK', '~> 1.0.3'
     App Transport Security Settings - Dictionary
     <key>NSAllowsArbitraryLoads</key>
     <true/>
+   
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
-
-    代码集成见【三、代码集成】
     
-    FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
-    【
+```
+##代码集成见【三、代码集成】
+    
+##FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
+    ```
     Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Alamofire.ihLdr1
 
     Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Info.plist.vn2fty
     】
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
+    ```
+#手动集成EmAds.framework
 
-# 手动集成EmAds.framework
-
-接入前提：
+##接入前提：
 若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
 
-一、库文件说明(目前仅支持真机)
-    
+##一、库文件说明(目前仅支持真机)
+    ```
     baidumobadsdk.bundle—— 百度联盟的资源文件
     CSJAdSDK.bundle —— 穿山甲联盟的资源文件
     EmAds.framework —— EmAdsSDK
     EmCore.framework —— EmAdsSDK内部引擎&基础代码
     KSAdSDK.xcframework —— 快手联盟的SDK
     README —— 接入文档
-    
+    ```
     注意： EmAds.framework 版本支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
 
-二、手动导入SDK
+##二、手动导入SDK
 
-1、将EmSDK 1.0.0文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+###1、将EmSDK 1.0.0文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
-2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
+###2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
-3、选中目标Target，在其info 配置中添加配置
-
+###3、选中目标Target，在其info 配置中添加配置
+    ```
     SKAdNetworkItems - Array
     item0 - Dictionary
         <key>SKAdNetworkIdentifier</key>
@@ -111,22 +113,25 @@ pod 'EmAdsSDK', '~> 1.0.3'
     <true/>
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
+    ```
 
-（4、导入系统库-待定）
+###4、导入系统库：已在内部处理，暂不需要手动导入
 
-三、代码集成
+##三、代码集成
 
-1、 在AppDelegate 中添加属性window，GDTModSDK 的BUG，若去掉， GDTModSDK有概率Crash
-
-    Swift语言：
+###1、 在AppDelegate 中添加属性window，GDTModSDK 的BUG，若去掉， GDTModSDK有概率Crash
+        ####Swift
+        ```Swift
         var window: UIWindow?
-        
-    Objective-C语言
+        ```
+        ####Objective-C
+        ```Objective-C
         @property (nonatomic, strong) UIWindow *window;
-
-2、 增加初始化代码
+        ```
+###2、 增加初始化代码
     
-    Swift 语言:
+        ####Swift
+        ```Swift
         在入口AppDelegate类中的 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool 方法中增加下方代码：
             import EmAds
             EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: true, emlAppId: "填写你易售申请的APPID") { err in
@@ -136,8 +141,9 @@ pod 'EmAdsSDK', '~> 1.0.3'
                     //初始化失败，此逻辑可能会多次执行
                 }
             }
-        
-    Objective-C语言:
+        ```
+        ####Objective-C
+        ```Objective-C
         在入口AppDelegate类 的方法 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中增加下方代码：
             #import <EmAds/EmAds.h>
             [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:@"填写你易售申请的APPID" resultHandler:^(EmAdError * _Nonnull err) {
@@ -148,14 +154,15 @@ pod 'EmAdsSDK', '~> 1.0.3'
                 }
             }];
     
-    isDebug = TRUE 表示控制台输出SDK内部日志
+        isDebug = TRUE 表示控制台输出SDK内部日志
+        ```
 
-3、广告集成
+###3、广告集成
 
-    1、Splash 广告集成
-        
-    Swift 语言:
-       
+    ####1、Splash 广告集成
+            
+        ####Swift
+        ```Swift
         import EmAds
         class SplashViewController: UIViewController {
             var splash: EmSplash?
@@ -204,10 +211,11 @@ pod 'EmAdsSDK', '~> 1.0.3'
             }
         }
 
-    
+        ```
         
-    Objective-C语言:
-    
+           
+        ####Objective-C
+        ```Objective-C
         #import <EmAds/EmAds.h>
 
         @interface SplashViewController ()<EmSplashDelegate>
@@ -270,7 +278,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
         }
 
         @end
-
+        ```
 2、Interstitial 广告集成
     
     Swift 语言:
