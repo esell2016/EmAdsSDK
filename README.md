@@ -137,6 +137,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
                     //初始化失败，此逻辑可能会多次执行
         }
     }
+    isDebug = true 表示控制台输出SDK内部日志
 ```
 #### Objective-C
 在入口AppDelegate类 的方法 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中增加下方代码：
@@ -149,7 +150,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
             //初始化失败，此逻辑可能会多次执行
         }
     }];
-    isDebug = TRUE 表示控制台输出SDK内部日志
+    isDebug = YES 表示控制台输出SDK内部日志
 ```
 
 ### 3、广告集成
