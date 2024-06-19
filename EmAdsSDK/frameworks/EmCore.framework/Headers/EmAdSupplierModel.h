@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong)   NSNumber *index;
 @property (nonatomic, assign) NSInteger adType;
 @property (nonatomic, assign) NSInteger ecpm; // 20240605日后新增
+@property (nonatomic, assign) NSInteger idfaEnabled; //20240618
+@property (nonatomic, copy)   NSString *idfa;
 
 //渠道  1        百度2        优量汇 3        穿山甲 4        快手
 @property (nonatomic, assign, readonly) NSInteger channelType;

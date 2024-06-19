@@ -32,10 +32,16 @@
 ## 2024-06-16      SDK 1.0.3
 1、增加使用Cocoapods自动集成
 
+## 2024-06-19      SDK 1.0.5
+1、增加idfa的开关，增加对应的SDK初始化方法，详见代码集成部分
+2、增加对iOS 17的支持，增加.xcprivacy文件
+3、修复部分已知问题
+
+
 # 使用Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.0.3'
+pod 'EmAdsSDK', '~> 1.0.5'
 ``` 
   
 ## 在info.plist 增加
@@ -88,7 +94,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
 
 ## 二、手动导入SDK
 
-### 1、将EmSDK 1.0.0文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.0.5/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
@@ -130,6 +136,7 @@ pod 'EmAdsSDK', '~> 1.0.3'
 在入口AppDelegate类中的 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool 方法中增加下方代码：
 ```Swift
     import EmAds
+    //调用此方法 默认idfaEnabled 为不开启状态
     EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: true, emlAppId: "填写你易售申请的APPID") { err in
         if err.code == .succeed {
                     //初始化成功，每次启动仅有一次执行
@@ -137,13 +144,36 @@ pod 'EmAdsSDK', '~> 1.0.3'
                     //初始化失败，此逻辑可能会多次执行
         }
     }
+    
+    或者
+    //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
+    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
+        if err.code == .succeed {
+                    //初始化成功，每次启动仅有一次执行
+        } else {
+                    //初始化失败，此逻辑可能会多次执行
+        }
+    }
+    
+        
     isDebug = true 表示控制台输出SDK内部日志
 ```
 #### Objective-C
 在入口AppDelegate类 的方法 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中增加下方代码：
 ```Objective-C 
     #import <EmAds/EmAds.h>
+    //调用此方法 默认idfaEnabled 为不开启状态
     [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:@"填写你易售申请的APPID" resultHandler:^(EmAdError * _Nonnull err) {
+        if(err.code == EmAdErrorCodeSucceed) {
+            //初始化成功，每次启动仅有一次执行
+        } else {
+            //初始化失败，此逻辑可能会多次执行
+        }
+    }];
+        
+    或者
+    //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
+    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
             //初始化成功，每次启动仅有一次执行
         } else {

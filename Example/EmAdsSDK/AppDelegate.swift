@@ -27,11 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let logEnabled = (obj == "on")
         
         let appid = UserDefaults.standard.string(forKey: "EmSDK_APPID") ?? kAppId
-        EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid) { err in
+        EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
             if err.code == .succeed {
                 
             }
         }
+        
+        
 
         return true
     }
