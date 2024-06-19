@@ -35,7 +35,7 @@
     #define EmAdLog(format,...)
 #endif
 
-#define EmAdLogJSONData(data)  [EmAdLog logJsonData:data]
+//#define EmAdLogJSONData(data)  [EmAdLog logJsonData:data]
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -48,7 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)customLogWithFunction:(const char *)function lineNumber:(int)lineNumber formatString:(NSString *)formatString;
 
 // 记录data类型数据
-+ (void)logJsonData:(NSData *)data;
+//+ (void)logJsonData:(NSData *)data;
 
 @end
 

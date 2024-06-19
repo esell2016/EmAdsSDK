@@ -384,6 +384,8 @@ typedef SWIFT_ENUM(NSInteger, EmAdErrorCode, open) {
 
 SWIFT_CLASS("_TtC5EmAds8EmAdsSDK")
 @interface EmAdsSDK : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// EmAds SDK初始化方法
 /// <ul>
 ///   <li>
@@ -398,11 +400,39 @@ SWIFT_CLASS("_TtC5EmAds8EmAdsSDK")
 ///   <li>
 ///     emlAppId: emlAppId
 ///   </li>
+///   <li>
+///     handler: 结果回调
+///   </li>
 /// </ul>
 ///
 /// returns:
 /// Void
 + (void)initSDKWithLaunchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions isDebug:(BOOL)isDebug emlAppId:(NSString * _Nonnull)emlAppId resultHandler:(void (^ _Nullable)(EmAdError * _Nonnull))handler SWIFT_METHOD_FAMILY(none);
+/// EmAds SDK初始化方法
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     launchOptions: launchOptions
+///   </li>
+///   <li>
+///     isDebug:  是否开启debug⽇志
+///   </li>
+///   <li>
+///     emlAppId: emlAppId
+///   </li>
+///   <li>
+///     idfaEnabled: 是否开启idfa, 当值为true时， 需要在info.plist中增加NSUserTrackingUsageDescription属性, 默认false
+///   </li>
+///   <li>
+///     handler: 结果回调
+///   </li>
+/// </ul>
+///
+/// returns:
+/// Void
++ (void)initSDKWithLaunchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions isDebug:(BOOL)isDebug emlAppId:(NSString * _Nonnull)emlAppId idfaEnabled:(BOOL)idfaEnabled resultHandler:(void (^ _Nullable)(EmAdError * _Nonnull))handler SWIFT_METHOD_FAMILY(none);
 /// 获取EmAds.framework版本号
 ///
 /// returns:
@@ -437,7 +467,6 @@ SWIFT_CLASS("_TtC5EmAds8EmAdsSDK")
 /// returns:
 /// Void
 + (void)setLogWindowWithIsShow:(BOOL)isShow;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -648,22 +677,21 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 @end
 
 
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16FYyJMKLYahoyItey")
-@interface FYyJMKLYahoyItey : NSObject
+SWIFT_CLASS("_TtC5EmAds16OgBQyFHnoXhZbpJF")
+@interface OgBQyFHnoXhZbpJF : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIColor;
 
-SWIFT_CLASS("_TtC5EmAds16ISQwcwokfXPYkkcz")
-@interface ISQwcwokfXPYkkcz : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@interface UIImage (SWIFT_EXTENSION(EmAds))
++ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16MflIxhKvuRzokNse")
-@interface MflIxhKvuRzokNse : NSObject
+SWIFT_CLASS("_TtC5EmAds16WaUSxxhwqqMXCGQG")
+@interface WaUSxxhwqqMXCGQG : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -676,26 +704,27 @@ SWIFT_CLASS("_TtC5EmAds16MflIxhKvuRzokNse")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16RAxLXMbliUZTVpEj")
-@interface RAxLXMbliUZTVpEj : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIColor;
-
-@interface UIImage (SWIFT_EXTENSION(EmAds))
-+ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16bamVGrJgMJISklIH")
-@interface bamVGrJgMJISklIH : NSObject
+SWIFT_CLASS("_TtC5EmAds16WiOIWnsmAspalqKh")
+@interface WiOIWnsmAspalqKh : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16bydaXySonQcVGmvM")
-@interface bydaXySonQcVGmvM : NSObject
+SWIFT_CLASS("_TtC5EmAds16hGUpEVohCbRDSFeN")
+@interface hGUpEVohCbRDSFeN : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16tkYiQLfbIMfhnlwt")
+@interface tkYiQLfbIMfhnlwt : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16xNWrgMoOtnyYYGfx")
+@interface xNWrgMoOtnyYYGfx : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
