@@ -94,7 +94,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
 
 ## 二、手动导入SDK
 
-### 1、将EmSDK 1.0.5文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.0.5/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
@@ -149,7 +149,9 @@ pod 'EmAdsSDK', '~> 1.0.5'
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
     EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
         if err.code == .succeed {
-            
+                    //初始化成功，每次启动仅有一次执行
+        } else {
+                    //初始化失败，此逻辑可能会多次执行
         }
     }
     
@@ -173,7 +175,9 @@ pod 'EmAdsSDK', '~> 1.0.5'
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
     [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
-            
+            //初始化成功，每次启动仅有一次执行
+        } else {
+            //初始化失败，此逻辑可能会多次执行
         }
     }];
     isDebug = YES 表示控制台输出SDK内部日志
