@@ -1,5 +1,5 @@
 
-# 历史版本，iOS EmSDK更新日志
+# 历史版本，iOS EmAdsSDK更新日志
 ## 2024-05-15      SDK 1.0.0 
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
@@ -38,6 +38,9 @@
 3、修复部分已知问题
 
 
+# 接入前提：
+本SDK与百度联盟，穿山甲，优量汇，快手联盟的SDK有冲突，若您的项目已经集成，请先移除。
+
 # 使用Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
@@ -63,7 +66,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
     <true/>
    
 
-    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
+    NSUserTrackingUsageDescription 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //值可自定义
 ```
 ## 代码集成见【三、代码集成】
     
@@ -76,10 +79,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 ```
-# 手动集成EmAds.framework
-
-## 接入前提：
-若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
+# 手动集成
 
 ## 一、库文件说明(目前仅支持真机)
 ```
@@ -90,7 +90,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
     KSAdSDK.xcframework —— 快手联盟的SDK
     README —— 接入文档
 ```
-    注意： EmAds.framework 版本支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
+    注意： 本SDK支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
 
 ## 二、手动导入SDK
 
@@ -118,7 +118,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
 ```
-### 4、导入系统库：已在内部处理，暂不需要手动导入
+### 4、导入系统库：暂不需要手动导入
 
 ## 三、代码集成
 
@@ -147,7 +147,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
     
     或者
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
+    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: true, emlAppId: "填写你易售申请的APPID", idfaEnabled: true) { err in
         if err.code == .succeed {
                     //初始化成功，每次启动仅有一次执行
         } else {
@@ -173,7 +173,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
         
     或者
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
+    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:@"填写你易售申请的APPID" idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
             //初始化成功，每次启动仅有一次执行
         } else {
