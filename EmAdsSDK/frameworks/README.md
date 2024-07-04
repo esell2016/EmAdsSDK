@@ -1,14 +1,23 @@
 
-# 历史版本，iOS EmSDK更新日志
-## 2024-05-15      SDK 1.0.0 
-1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
+# 历史版本，iOS EmAdsSDK更新日志
 
-## 2024-05-20      SDK 1.0.0 
-1、版本修改，EmAds.framework 1.0.0, 版本号不改变，支持iOS 9+（含iOS 9）手动导入&通过编译，不crash， 但仅支持iOS 13+ 才能初始化成功并展示广告，优化LOG输出；
-2、增加iOS 13-，调用SDK初始化方法时，返回错误code 20988；
+## 2024-07-04      SDK 1.0.6
+1、修复已知问题，优化超时逻辑
 
-## 2024-05-21      SDK 1.0.0 
-1、修复EmAds.framework 1.0.0 iOS 12 运行crash 的问题
+## 2024-06-19      SDK 1.0.5
+1、增加idfa的开关，增加对应的SDK初始化方法，详见代码集成部分
+2、增加对iOS 17的支持，增加.xcprivacy文件
+3、修复部分已知问题
+
+## 2024-06-16      SDK 1.0.3
+1、增加使用Cocoapods自动集成
+
+## 2024-06-05      SDK 1.0.3
+1、EmCore.framework,EmAds.framework代码内部处理
+
+## 2024-06-03      SDK 1.0.2
+1、重构瀑布流规则代码；
+2、增加竞价规则代码；
 
 ## 2024-05-22      SDK 1.0.1
 1、优化SDK， 快手渠道的Intersititial广告声音无法关闭的问题
@@ -20,22 +29,15 @@
 穿山甲的，都没有设置静音的功能
 」
 
+## 2024-05-21      SDK 1.0.0 
+1、修复EmAds.framework 1.0.0 iOS 12 运行crash 的问题
 
-## 2024-06-03      SDK 1.0.2
-1、重构瀑布流规则代码；
-2、增加竞价规则代码；
+## 2024-05-20      SDK 1.0.0 
+1、版本修改，EmAds.framework 1.0.0, 版本号不改变，支持iOS 9+（含iOS 9）手动导入&通过编译，不crash， 但仅支持iOS 13+ 才能初始化成功并展示广告，优化LOG输出；
+2、增加iOS 13-，调用SDK初始化方法时，返回错误code 20988；
 
-
-## 2024-06-05      SDK 1.0.3
-1、EmCore.framework,EmAds.framework代码内部处理
-
-## 2024-06-16      SDK 1.0.3
-1、增加使用Cocoapods自动集成
-
-## 2024-06-19      SDK 1.0.5
-1、增加idfa的开关，增加对应的SDK初始化方法，详见代码集成部分
-2、增加对iOS 17的支持，增加.xcprivacy文件
-3、修复部分已知问题
+## 2024-05-15      SDK 1.0.0 
+1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
 
 # 使用Cocoapods自动集成
@@ -149,7 +151,9 @@ pod 'EmAdsSDK', '~> 1.0.5'
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
     EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
         if err.code == .succeed {
-            
+                    //初始化成功，每次启动仅有一次执行
+        } else {
+                    //初始化失败，此逻辑可能会多次执行
         }
     }
     
@@ -173,7 +177,9 @@ pod 'EmAdsSDK', '~> 1.0.5'
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
     [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
-            
+            //初始化成功，每次启动仅有一次执行
+        } else {
+            //初始化失败，此逻辑可能会多次执行
         }
     }];
     isDebug = YES 表示控制台输出SDK内部日志
