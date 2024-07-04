@@ -46,7 +46,7 @@
 # 使用Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.0.5'
+pod 'EmAdsSDK', '~> 1.0.6'
 ``` 
   
 ## 在info.plist 增加
@@ -96,7 +96,7 @@ pod 'EmAdsSDK', '~> 1.0.5'
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-1.0.5/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.0.6/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
