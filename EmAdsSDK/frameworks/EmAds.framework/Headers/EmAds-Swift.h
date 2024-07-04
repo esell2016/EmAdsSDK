@@ -676,22 +676,22 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16OgBQyFHnoXhZbpJF")
-@interface OgBQyFHnoXhZbpJF : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16ZsMAPYWjLzSbTETl")
+@interface ZsMAPYWjLzSbTETl : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16WaUSxxhwqqMXCGQG")
-@interface WaUSxxhwqqMXCGQG : NSObject
+SWIFT_CLASS("_TtC5EmAds16aOoEvSwqNBhrjZbk")
+@interface aOoEvSwqNBhrjZbk : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -704,27 +704,27 @@ SWIFT_CLASS("_TtC5EmAds16WaUSxxhwqqMXCGQG")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16WiOIWnsmAspalqKh")
-@interface WiOIWnsmAspalqKh : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16hGUpEVohCbRDSFeN")
-@interface hGUpEVohCbRDSFeN : NSObject
+SWIFT_CLASS("_TtC5EmAds16boayfyXNktxvvQfs")
+@interface boayfyXNktxvvQfs : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16tkYiQLfbIMfhnlwt")
-@interface tkYiQLfbIMfhnlwt : NSObject
+SWIFT_CLASS("_TtC5EmAds16eVRNexkKNiNEEGLd")
+@interface eVRNexkKNiNEEGLd : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16xNWrgMoOtnyYYGfx")
-@interface xNWrgMoOtnyYYGfx : NSObject
+SWIFT_CLASS("_TtC5EmAds16qFpoFuFddRZzKzEF")
+@interface qFpoFuFddRZzKzEF : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16uOMvUpSdjcyUCcjW")
+@interface uOMvUpSdjcyUCcjW : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -17,7 +17,6 @@
 				1C61ACF8A5B0CE4093170A5378CB915E /* PBXTargetDependency */,
 			);
 			name = EmAdsSDK;
-			productName = EmAdsSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -62,7 +61,7 @@
 		27031809F1A96B17ADA1E1E88BC46B5E /* Pods-EmAdsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmAdsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27F2ACD474D1901BB89303441B66A78B /* Pods-EmAdsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmAdsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D21BFAA247E87609E276694D3A73AF5 /* Pods-EmAdsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmAdsSDK_Example.modulemap"; sourceTree = "<group>"; };
-		3C2CAB5939675C480862E3FA6E99768E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3C2CAB5939675C480862E3FA6E99768E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		48FD65785EDB72E5284A1E90D89A7902 /* Pods-EmAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		568766999D949DF7B4B0D8300FAC8B32 /* Pods-EmAdsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmAdsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		597D1A54A6815E2B0C319125BB51FFC5 /* ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist"; sourceTree = "<group>"; };
@@ -74,12 +73,12 @@
 		97601D9189A8160F2B4FE2ED6FE721FB /* Pods-EmAdsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9774917CFF2C18CA617C728528ACDE24 /* Pods-EmAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A3FE01811C029FD9BD2E7D9581809FF /* Pods-EmAdsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3C653F60ACFB5843E62699FAB9CF854 /* Pods-EmAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		A3EEF69BE4269AF024A0A4B98AEC771B /* KSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = KSAdSDK.xcframework; path = EmAdsSDK/frameworks/KSAdSDK.xcframework; sourceTree = "<group>"; };
+		A3EEF69BE4269AF024A0A4B98AEC771B /* KSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KSAdSDK.xcframework; path = EmAdsSDK/frameworks/KSAdSDK.xcframework; sourceTree = "<group>"; };
 		A42F1CBF68E48D38B1F46DE5B221298E /* baidumobadsdk.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = baidumobadsdk.bundle; path = EmAdsSDK/frameworks/baidumobadsdk.bundle; sourceTree = "<group>"; };
 		A5B3E4A26CBD711185A791EAC86E45AA /* EmAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmAdsSDK.release.xcconfig; sourceTree = "<group>"; };
-		A6577D9FE1D8D9EA72A9568FDAC2DAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6577D9FE1D8D9EA72A9568FDAC2DAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BAD781B1546BCCB4FF8054F1F8707AAE /* Pods-EmAdsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmAdsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC16F2B24BA4EECA922B23CE68E2BF93 /* Pods-EmAdsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmAdsSDK_Example"; path = Pods_EmAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD7E5E80360D2389CAB528075B02C4C /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = EmAdsSDK/frameworks/CSJAdSDK.bundle; sourceTree = "<group>"; };
@@ -87,7 +86,7 @@
 		BEFBFA023C5256BA062FE252B333EF85 /* Pods-EmAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CAE47BAAEC25835EF07EFA4567D1DE85 /* EmAdsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "EmAdsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		CF6BE4408B882B425726CF3AB07606CB /* Pods-EmAdsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmAdsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBC945B63A5A4ACEE7B47B8641B3B052 /* EmAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		DBC945B63A5A4ACEE7B47B8641B3B052 /* EmAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E22E2D575243D76F8A8E66EA1433A8A5 /* EmCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmCore.framework; path = EmAdsSDK/frameworks/EmCore.framework; sourceTree = "<group>"; };
 		F115DD0987FB72A741606FA46B1B2EF3 /* EmAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmAds.framework; path = EmAdsSDK/frameworks/EmAds.framework; sourceTree = "<group>"; };
 		F12A6D8DFBB2245DD4BA32251257E847 /* Pods-EmAdsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmAdsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -736,7 +735,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
