@@ -1,12 +1,19 @@
 
 # 历史版本，iOS EmAdsSDK更新日志
 
+## 2024-07-26      SDK 1.0.7
+1、修复问题：初始化成功的回调中后立即调用广告展示，提示错误的问题；
+
+2、修复问题：onAdFailed中调用destory 导致crash 的问题。
+
 ## 2024-07-04      SDK 1.0.6
 1、修复已知问题，优化超时逻辑
 
 ## 2024-06-19      SDK 1.0.5
 1、增加idfa的开关，增加对应的SDK初始化方法，详见代码集成部分
+
 2、增加对iOS 17的支持，增加.xcprivacy文件
+
 3、修复部分已知问题
 
 ## 2024-06-16      SDK 1.0.3
@@ -17,16 +24,24 @@
 
 ## 2024-06-03      SDK 1.0.2
 1、重构瀑布流规则代码；
+
 2、增加竞价规则代码；
 
 ## 2024-05-22      SDK 1.0.1
 1、优化SDK， 快手渠道的Intersititial广告声音无法关闭的问题
+
 2、将其它渠道视频广告能关闭的声音关闭掉
+
 「
+
 快手的只有插屏Interstitial可以关，其它的也关不掉
+
 百度联盟 的都不能关闭
+
 优量汇的，NativeExpress RewardVideo FullScreenVideo Interstitial 可以关闭， Banner&Splash忽略
+
 穿山甲的，都没有设置静音的功能
+
 」
 
 ## 2024-05-21      SDK 1.0.0 
@@ -34,19 +49,17 @@
 
 ## 2024-05-20      SDK 1.0.0 
 1、版本修改，EmAds.framework 1.0.0, 版本号不改变，支持iOS 9+（含iOS 9）手动导入&通过编译，不crash， 但仅支持iOS 13+ 才能初始化成功并展示广告，优化LOG输出；
+
 2、增加iOS 13-，调用SDK初始化方法时，返回错误code 20988；
 
 ## 2024-05-15      SDK 1.0.0 
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
 
-# 接入前提：
-本SDK与百度联盟，穿山甲，优量汇，快手联盟的SDK有冲突，若您的项目已经集成，请先移除。
-
 # 使用Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.0.6'
+pod 'EmAdsSDK', '~> 1.0.7'
 ``` 
   
 ## 在info.plist 增加
@@ -68,7 +81,7 @@ pod 'EmAdsSDK', '~> 1.0.6'
     <true/>
    
 
-    NSUserTrackingUsageDescription 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //值可自定义
+    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
 ```
 ## 代码集成见【三、代码集成】
     
@@ -81,7 +94,10 @@ pod 'EmAdsSDK', '~> 1.0.6'
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 ```
-# 手动集成
+# 手动集成EmAds.framework
+
+## 接入前提：
+若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
 
 ## 一、库文件说明(目前仅支持真机)
 ```
@@ -92,11 +108,11 @@ pod 'EmAdsSDK', '~> 1.0.6'
     KSAdSDK.xcframework —— 快手联盟的SDK
     README —— 接入文档
 ```
-    注意： 本SDK支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
+    注意： EmAds.framework 版本支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-1.0.6/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.0.7/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
@@ -120,7 +136,7 @@ pod 'EmAdsSDK', '~> 1.0.6'
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
 ```
-### 4、导入系统库：暂不需要手动导入
+### 4、导入系统库：已在内部处理，暂不需要手动导入
 
 ## 三、代码集成
 
@@ -149,7 +165,7 @@ pod 'EmAdsSDK', '~> 1.0.6'
     
     或者
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: true, emlAppId: "填写你易售申请的APPID", idfaEnabled: true) { err in
+    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
         if err.code == .succeed {
                     //初始化成功，每次启动仅有一次执行
         } else {
@@ -175,7 +191,7 @@ pod 'EmAdsSDK', '~> 1.0.6'
         
     或者
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:@"填写你易售申请的APPID" idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
+    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
             //初始化成功，每次启动仅有一次执行
         } else {
@@ -283,7 +299,8 @@ pod 'EmAdsSDK', '~> 1.0.6'
         
     }
 
-    - (void)onAdFailedWithError:(EmAdError * _Nonnull)error { //广告获取错误的回调，获取未能获取到广告等错误
+    - (void)onAdFailedWithError:(EmAdError * _Nonnull)error { 
+        //广告获取错误的回调，获取未能获取到广告等错误
         NSString *str = [NSString stringWithFormat:@"EmSplashDelegate onAdExposure error: %@", error];
         SOCDemoDebugLog(str);
     }

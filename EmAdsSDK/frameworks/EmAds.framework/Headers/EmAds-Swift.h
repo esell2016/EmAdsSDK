@@ -309,6 +309,12 @@ SWIFT_CLASS("_TtC5EmAds25EARewardServerCallBackInf")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16ESZYeKSBRvTLMAmp")
+@interface ESZYeKSBRvTLMAmp : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 enum EmAdErrorCode : NSInteger;
 @class NSString;
 
@@ -676,22 +682,29 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16JMHPJTeuICiUoaiq")
+@interface JMHPJTeuICiUoaiq : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16KSuzDJzudzekkxCU")
+@interface KSuzDJzudzekkxCU : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16ZsMAPYWjLzSbTETl")
-@interface ZsMAPYWjLzSbTETl : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16aOoEvSwqNBhrjZbk")
-@interface aOoEvSwqNBhrjZbk : NSObject
+SWIFT_CLASS("_TtC5EmAds16bqmVyPawrAgXODID")
+@interface bqmVyPawrAgXODID : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -704,27 +717,14 @@ SWIFT_CLASS("_TtC5EmAds16aOoEvSwqNBhrjZbk")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16boayfyXNktxvvQfs")
-@interface boayfyXNktxvvQfs : NSObject
+SWIFT_CLASS("_TtC5EmAds16kmdxBwMagFQvrxAw")
+@interface kmdxBwMagFQvrxAw : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16eVRNexkKNiNEEGLd")
-@interface eVRNexkKNiNEEGLd : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16qFpoFuFddRZzKzEF")
-@interface qFpoFuFddRZzKzEF : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16uOMvUpSdjcyUCcjW")
-@interface uOMvUpSdjcyUCcjW : NSObject
+SWIFT_CLASS("_TtC5EmAds16qEXlNqRqvVDdkJVd")
+@interface qEXlNqRqvVDdkJVd : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

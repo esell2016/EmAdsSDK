@@ -9,7 +9,7 @@
 import UIKit
 import EmAds
 
-let kAppId = "26" // 混合
+let kAppId = "26" // 测试时，把此值修改为对应值，并把bundleid改为您的bundleid
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let obj = UserDefaults.standard.string(forKey: "EmSDK_LOGENABLED") ?? "on"
         let logEnabled = (obj == "on")
         
-        let appid = UserDefaults.standard.string(forKey: "EmSDK_APPID") ?? kAppId
+        let appid = UserDefaults.standard.string(forKey: "EmSDK_APPID") ?? kAppId //测试时，修改kAppId的值即可。
         EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
             if err.code == .succeed {
                 
