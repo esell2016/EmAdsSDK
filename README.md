@@ -56,6 +56,11 @@
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
 
+# 接入前提(不管是手动接入还是Pod接入都适用)：
+## 若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
+
+
+
 # 使用Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
@@ -95,9 +100,6 @@ pod 'EmAdsSDK', '~> 1.0.7'
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 ```
 # 手动集成EmAds.framework
-
-## 接入前提：
-若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
 
 ## 一、库文件说明(目前仅支持真机)
 ```
