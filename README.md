@@ -1,5 +1,5 @@
 
-# 历史版本，iOS EmAdsSDK更新日志
+# iOS EmAdsSDK更新日志
 
 ## 2024-07-26      SDK 1.0.7
 1、修复问题：初始化成功的回调中后立即调用广告展示，提示错误的问题；
@@ -56,9 +56,13 @@
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
 
-# 接入前提(不管是手动接入还是Pod接入都适用)：
-## 若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
+# SDK 介绍
 
+EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山甲、快手、腾讯广告联盟集合到一起，支持瀑布和竞价方式展示广告，它更好地使您的收益最大化。
+
+# 接入前提(不管是手动接入还是Pod接入都适用)：
+
+若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
 
 
 # 使用Cocoapods自动集成
@@ -86,9 +90,9 @@ pod 'EmAdsSDK', '~> 1.0.7'
     <true/>
    
 
-    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
+    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //当启动方法中的idfaEnabled 为true/YES时，必须添加此项，否则可以不添加
 ```
-## 代码集成见【三、代码集成】
+## 代码集成见【手动集成 —— 三、代码集成】
     
 ## FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
 ```
@@ -99,7 +103,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 ```
-# 手动集成EmAds.framework
+# 手动集成
 
 ## 一、库文件说明(目前仅支持真机)
 ```
@@ -108,9 +112,9 @@ pod 'EmAdsSDK', '~> 1.0.7'
     EmAds.framework —— EmAdsSDK
     EmCore.framework —— EmAdsSDK内部引擎&基础代码
     KSAdSDK.xcframework —— 快手联盟的SDK
-    README —— 接入文档
+    README.md —— 接入文档
 ```
-    注意： EmAds.framework 版本支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对 < iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码。
+    注意： EmAds.framework 版本支持iOS 9+ （含iOS 9）编译通过，但所有广告位均只支持iOS 13 + （含iOS 13），  针对小于iOS 13 系统，执行初始化代码时会提示初始化不成功，抛出20988错误码【错误码说明见页面最下方】。
 
 ## 二、手动导入SDK
 
@@ -136,7 +140,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     <key>NSAllowsArbitraryLoads</key>
     <true/>
 
-    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"
+    Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息"  //当启动方法中的idfaEnabled 为true/YES时，必须添加此项，否则可以不添加
 ```
 ### 4、导入系统库：已在内部处理，暂不需要手动导入
 
@@ -167,7 +171,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     
     或者
     //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: appid, idfaEnabled: true) { err in
+    EmAdsSDK.initSDK(launchOptions: launchOptions, isDebug: logEnabled, emlAppId: "填写你易售申请的APPID", idfaEnabled: true) { err in
         if err.code == .succeed {
                     //初始化成功，每次启动仅有一次执行
         } else {
@@ -176,7 +180,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     }
     
         
-    isDebug = true 表示控制台输出SDK内部日志
+    isDebug = true 表示控制台输出SDK内部日志， 若发布上线，最好设置为false
 ```
 #### Objective-C
 在入口AppDelegate类 的方法 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中增加下方代码：
@@ -192,15 +196,16 @@ pod 'EmAdsSDK', '~> 1.0.7'
     }];
         
     或者
-    //调用此方法 idfaEnabled = true 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
-    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:kAppId idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
+    //调用此方法 idfaEnabled = YES 为开启状态，必须在info.plist 增加NSUserTrackingUsageDescription
+    [EmAdsSDK initSDKWithLaunchOptions:launchOptions isDebug:YES emlAppId:@"填写你易售申请的APPID" idfaEnabled:YES resultHandler:^(EmAdError * _Nonnull err) {
         if(err.code == EmAdErrorCodeSucceed) {
             //初始化成功，每次启动仅有一次执行
         } else {
             //初始化失败，此逻辑可能会多次执行
         }
     }];
-    isDebug = YES 表示控制台输出SDK内部日志
+    
+    isDebug = YES 表示控制台输出SDK内部日志， 若发布上线，最好设置为NO
 ```
 
 ### 3、广告集成
