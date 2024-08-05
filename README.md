@@ -1,5 +1,5 @@
 
-# iOS EmAdsSDK更新日志
+# ● iOS EmAdsSDK更新日志
 
 ## 2024-07-26      SDK 1.0.7
 1、修复问题：初始化成功的回调中后立即调用广告展示，提示错误的问题；
@@ -56,16 +56,16 @@
 1、初始版本，EmAds.framework 1.0.0，支持iOS 13+（含iOS 13）手动导入，完善Objective-C和Swift 的引入代码说明；
 
 
-# SDK 介绍
+# ● SDK 介绍
 
 EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山甲、快手、腾讯广告联盟集合到一起，支持瀑布和竞价方式展示广告，它更好地使您的收益最大化。
 
-# 接入前提(不管是手动接入还是Pod接入都适用)：
+# ● 接入前提(不管是手动接入还是Pod接入都适用)：
 
 若您的项目已经集成百度联盟，穿山甲，优量汇，快手联盟的SDK， 请先移除；
 
 
-# 使用Cocoapods自动集成
+# ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
 pod 'EmAdsSDK', '~> 1.0.7'
@@ -92,7 +92,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //当启动方法中的idfaEnabled 为true/YES时，必须添加此项，否则可以不添加
 ```
-## 代码集成见【手动集成 —— 三、代码集成】
+## 代码集成见【 ● 手动集成 ———— 三、代码集成】
     
 ## FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
 ```
@@ -103,7 +103,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
 ```
-# 手动集成
+# ● 手动集成
 
 ## 一、库文件说明(目前仅支持真机)
 ```
