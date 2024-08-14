@@ -46,6 +46,10 @@ extern NSString *const EmAdSdkTypeAdNameRewardVideo;
 + (NSString *)getCsjSDKVersion;
 + (NSString *)getGdtSDKVersion;
 
++ (void)initBDSDK: (NSString * _Nullable)bdAppId;
++ (void)initKSSDK: (NSString*)ksAppId;
++ (void)initCSJSDK: (NSString*)csjAppId;
++ (void)initGDTSDK: (NSString*)gdtAppId;
 
 + (UIWindow *)getRootWindow;
 

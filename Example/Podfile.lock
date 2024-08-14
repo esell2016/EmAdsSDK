@@ -1,5 +1,5 @@
 PODS:
-  - EmAdsSDK (1.0.7)
+  - EmAdsSDK (1.0.8)
 
 DEPENDENCIES:
   - EmAdsSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EmAdsSDK: 675dd27e16c86f15038de91a68c83a4056cb9172
+  EmAdsSDK: dfe6cf459a97ac3e50391f1d3bae0933a8854a3d
 
 PODFILE CHECKSUM: 7a9d316d3324effdb5cd317731daa2c769d6c233
 

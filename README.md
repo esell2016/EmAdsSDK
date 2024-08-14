@@ -1,6 +1,13 @@
 
 # ● iOS EmAdsSDK更新日志
 
+## 2024-08-14      SDK 1.0.8
+1、优化：初始化成功后首次展示广告比较慢的问题；
+
+2、优化：弱网情况下竞价的超时机制
+
+3、增加初始化过程中调用loadOnly等方法的提示错误码
+
 ## 2024-07-26      SDK 1.0.7
 1、修复问题：初始化成功的回调中后立即调用广告展示，提示错误的问题；
 
@@ -68,7 +75,7 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 # ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.0.7'
+pod 'EmAdsSDK', '~> 1.0.8'
 ``` 
   
 ## 在info.plist 增加
@@ -118,7 +125,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-1.0.7/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.0.8/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
@@ -1380,6 +1387,7 @@ pod 'EmAdsSDK', '~> 1.0.7'
     20999   网络断开
     20997   appid 重试请求配置多次错误
     20996   SDK初始化失败
+    20998   SDK初始化中
     20989   SDK未启用
     20995   加载开屏广告失败
     20994   加载插屏广告失败
