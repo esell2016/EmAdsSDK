@@ -69,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 internal let DEMO_TAG = "DemoDebug"
 internal func SDemoDebugLog<T: StringProtocol>(_ message: T, fileName: String = #file, methodName: String = #function, lineNumber: Int = #line) {
     
-#if DEBUG
+
     //获取当前时间
     let now = Date()
     // 创建一个日期格式器
@@ -80,7 +80,7 @@ internal func SDemoDebugLog<T: StringProtocol>(_ message: T, fileName: String = 
     let fullMessage = "\(DEMO_TAG) [\(dformatter.string(from: now))] [\(lastName)][line \(lineNumber)]# \(message)"
     print(fullMessage)
     NotificationCenter.default.post(name: kNotificationNameLogTextAppend, object: fullMessage)
-#endif
+
 }
 
 internal let kNotificationNameLogTextAppend = Notification.Name.init("NotificationNameLogTextAppend")

@@ -309,12 +309,6 @@ SWIFT_CLASS("_TtC5EmAds25EARewardServerCallBackInf")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16ESZYeKSBRvTLMAmp")
-@interface ESZYeKSBRvTLMAmp : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 enum EmAdErrorCode : NSInteger;
 @class NSString;
 
@@ -365,6 +359,8 @@ typedef SWIFT_ENUM(NSInteger, EmAdErrorCode, open) {
   EmAdErrorCodeReqConfigMaxTimesError = 20997,
 /// SDK初始化失败-
   EmAdErrorCodeInitialSDKFailed = 20996,
+/// SDK初始化中-
+  EmAdErrorCodeInitialingSDK = 20998,
 /// SDK未启用-
   EmAdErrorCodeEmSDKDisabledError = 20989,
 /// 加载开屏广告失败-
@@ -660,6 +656,8 @@ SWIFT_PROTOCOL("_TtP5EmAds21EmRewardVideoDelegate_")
 /// 开屏广告
 SWIFT_CLASS("_TtC5EmAds8EmSplash")
 @interface EmSplash : NSObject
+/// 竞价的超时时间，不宜太短，太短会造成所有渠道无法在较短的时间内拿到广告，导致拿广告不成功，默认值为6s
+@property (nonatomic) NSInteger biddingSplashTimeout;
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmSplashDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 /// 仅拉取广告
 - (void)loadOnly;
@@ -682,29 +680,47 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16JMHPJTeuICiUoaiq")
-@interface JMHPJTeuICiUoaiq : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16KSuzDJzudzekkxCU")
-@interface KSuzDJzudzekkxCU : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds25cfs_INS_SafeBoolTransform")
+@interface cfs_INS_SafeBoolTransform : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeDicTransform")
+@interface cfs_INS_SafeDicTransform : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds26cfs_INS_SafeInt64Transform")
+@interface cfs_INS_SafeInt64Transform : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeIntTransform")
+@interface cfs_INS_SafeIntTransform : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds27cfs_INS_SafeStringTransform")
+@interface cfs_INS_SafeStringTransform : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16bqmVyPawrAgXODID")
-@interface bqmVyPawrAgXODID : NSObject
+SWIFT_CLASS("_TtC5EmAds19cfs_WindowLogHelper")
+@interface cfs_WindowLogHelper : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -714,18 +730,6 @@ SWIFT_CLASS("_TtC5EmAds16bqmVyPawrAgXODID")
 + (CGFloat)bottomSafeArea SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)navigationBarHeight SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)statusBarHeight SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16kmdxBwMagFQvrxAw")
-@interface kmdxBwMagFQvrxAw : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16qEXlNqRqvVDdkJVd")
-@interface qEXlNqRqvVDdkJVd : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
