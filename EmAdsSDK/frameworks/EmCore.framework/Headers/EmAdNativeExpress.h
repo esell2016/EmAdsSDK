@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param viewController viewController
 /// @param size 尺寸
 - (instancetype)initWithJsonDic:(NSDictionary *)jsonDic
+                           xFor:(NSInteger)ruleType
                  viewController:(UIViewController *)viewController
                          adSize:(CGSize)size;
 

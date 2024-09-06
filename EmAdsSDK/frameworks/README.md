@@ -1,6 +1,13 @@
 
 # ● iOS EmAdsSDK更新日志
 
+## 2024-09-06      SDK 1.1.0
+1、更换config V2
+
+2、增加混合模式
+
+3、优化代码，修复BUG
+
 ## 2024-08-14      SDK 1.0.8
 1、优化：初始化成功后首次展示广告比较慢的问题；
 
@@ -75,7 +82,7 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 # ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.0.8'
+pod 'EmAdsSDK', '~> 1.1.0'
 ``` 
   
 ## 在info.plist 增加
@@ -101,7 +108,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 ```
 ## 代码集成见【 ● 手动集成 ———— 三、代码集成】
     
-## FAQ: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
+## FAQ 1: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
 ```
     Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Alamofire.ihLdr1
 
@@ -109,6 +116,12 @@ pod 'EmAdsSDK', '~> 1.0.8'
     】
     
     要解决此错误，您可以尝试在BuildSetting中 将User Script Sandboxing 设置为NO。
+```
+
+## FAQ 2: 若您有些时候没有收到回调, 可能是下面原因导致：
+```
+    提前调用了广告对象的destroy方法
+    要解决此问题，您可以删除本地destroy的调用，SDK内部有销毁机制，一般您无需主动调用;
 ```
 # ● 手动集成
 
@@ -125,7 +138,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-1.0.8/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-1.1.0/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
@@ -232,7 +245,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         }
         
         @IBAction func btnClickedAction4(_ sender: UIButton) {
-            self.splash?.destroy()      //销毁， 关闭广告时也会自动销毁， 可以重复调用
+            self.splash?.destroy()      //销毁， 关闭广告时也会自动销毁， 可以重复调用，注意 不要在错误的时间调用，否则无法收到回调
         }
         
     }
@@ -292,7 +305,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
     - (IBAction)splashBtnAction4:(UIButton *)sender {
         if(self.splash != nil) {
-            [self.splash destroy]; //销毁， 关闭广告时也会自动销毁， 可以重复调用
+            [self.splash destroy]; //销毁， 关闭广告时也会自动销毁， 可以重复调用，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 
@@ -361,7 +374,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         
         
         @IBAction func btnInterstitialClickedAction4(_ sender: UIButton) {
-            self.interstitial?.destroy()    //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            self.interstitial?.destroy()    //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 
@@ -428,7 +441,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
     - (IBAction)interstitialBtnAction4:(UIButton *)sender {
         if(self.interstitial != nil) {
-            [self.interstitial destroy];     //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            [self.interstitial destroy];     //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 
@@ -478,7 +491,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         }
         
         @IBAction func btnBannerClickedAction4(_ sender: UIButton) {
-            self.banner?.destroy()  //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁， 销毁时会从界面移除
+            self.banner?.destroy()  //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁， 销毁时会从界面移除，注意 不要在错误的时间调用，否则无法收到回调
         }
         
     }
@@ -530,7 +543,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
     }
 
     - (IBAction)bannerBtnAction4:(UIButton *)sender {
-        [self.banner destroy];  //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁， 销毁时会从界面移除
+        [self.banner destroy];  //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁， 销毁时会从界面移除，注意 不要在错误的时间调用，否则无法收到回调
     }
 
 
@@ -663,7 +676,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         
         
         @IBAction func btnnativeExpressClickedAction4(_ sender: UIButton) {
-            self.nativeExpress?.destroy()   //销毁广告，信息流广告比较特殊，需要自行处理从界面删除逻辑
+            self.nativeExpress?.destroy()   //销毁广告，信息流广告比较特殊，需要自行处理从界面删除逻辑，注意 不要在错误的时间调用，否则无法收到回调
 
             self.dataArray.removeAll()
             self.adExpressViews.removeAllObjects()
@@ -917,7 +930,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
     - (IBAction)btnAction4:(UIButton *)sender {
         if (self.nativeExpress != nil) {
-            [self.nativeExpress destroy]; //销毁广告，信息流广告比较特殊，需要自行处理从界面删除逻辑
+            [self.nativeExpress destroy]; //销毁广告，信息流广告比较特殊，需要自行处理从界面删除逻辑，注意 不要在错误的时间调用，否则无法收到回调
         }
         [self.dataArray removeAllObjects];
         [self.adExpressViews removeAllObjects];
@@ -1077,7 +1090,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         }
         
         @IBAction func btnClickedAction4(_ sender: UIButton) {
-            self.rewardVideo?.destroy()     //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            self.rewardVideo?.destroy()     //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
         
     }
@@ -1170,7 +1183,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
     - (IBAction)rewardVideoBtnAction4:(UIButton *)sender {
         if(self.rewardVideo != nil) {
-            [self.rewardVideo destroy]; //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            [self.rewardVideo destroy]; //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 
@@ -1250,7 +1263,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
         }
         
         @IBAction func btnClickedAction4(_ sender: UIButton) {
-            self.fullScreenVideo?.destroy() //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            self.fullScreenVideo?.destroy() //销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 
@@ -1331,7 +1344,7 @@ pod 'EmAdsSDK', '~> 1.0.8'
 
     - (IBAction)fullScreenVideoBtnAction4:(UIButton *)sender {
         if(self.fullScreenVideo != nil) {
-            [self.fullScreenVideo destroy];//销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁
+            [self.fullScreenVideo destroy];//销毁广告，可以多次调用，也可以不手动调用，如果广告对象的携带者self被销毁， 广告也会自动销毁，注意 不要在错误的时间调用，否则无法收到回调
         }
     }
 

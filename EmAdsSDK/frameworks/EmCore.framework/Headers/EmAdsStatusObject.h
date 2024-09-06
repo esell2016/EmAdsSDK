@@ -24,15 +24,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger ksFlag;
 
 
-@property (nonatomic, strong) NSString *channelAppCode;
-@property (nonatomic, strong) NSString *channelSlotCode;
+@property (nonatomic, copy) NSString *channelAppCode;
+@property (nonatomic, copy) NSString *channelSlotCode;
 
 @property (nonatomic, assign) NSInteger channel;
 @property (nonatomic, assign) NSInteger duration;
 @property (nonatomic, assign) NSInteger closeType;
 @property (nonatomic, assign) NSInteger price;//分
 @property (nonatomic, assign) NSInteger clicked;
-@property (nonatomic, strong) NSString *materialUrl;
+@property (nonatomic, copy) NSString *materialUrl;
 
 @property (nonatomic, assign) NSInteger secondPrice;//分
 // 二价渠道  1        百度2        优量汇 3        穿山甲 4        快手

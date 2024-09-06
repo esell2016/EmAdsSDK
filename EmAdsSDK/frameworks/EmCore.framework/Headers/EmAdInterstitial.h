@@ -32,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void(^blockEndBidding)(EmLoadStatusObject *_Nullable statusObject, NSError *_Nullable err);
 
 - (instancetype)initWithJsonDic:(NSDictionary *)jsonDic
+                           xFor:(NSInteger)ruleType
                  viewController:(UIViewController *)viewController;
 
 @end

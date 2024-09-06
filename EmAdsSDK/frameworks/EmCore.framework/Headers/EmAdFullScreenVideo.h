@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<EmAdFullScreenVideoDelegate> delegate;
 
 - (instancetype)initWithJsonDic:(NSDictionary *)jsonDic
+                           xFor:(NSInteger)ruleType
                  viewController:(UIViewController *)viewController;
 
 //外部调用
