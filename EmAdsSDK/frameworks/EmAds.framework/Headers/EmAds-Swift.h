@@ -687,21 +687,15 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16HiZZUwNuThWntHDu")
-@interface HiZZUwNuThWntHDu : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16SrLsazIVRZlAlAoT")
-@interface SrLsazIVRZlAlAoT : NSObject
+SWIFT_CLASS("_TtC5EmAds16EvzNEOVlAgFSnKvF")
+@interface EvzNEOVlAgFSnKvF : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16TUgqUxUyfRsxLIHI")
-@interface TUgqUxUyfRsxLIHI : NSObject
+SWIFT_CLASS("_TtC5EmAds16FDwjtuWtvdgMZbyA")
+@interface FDwjtuWtvdgMZbyA : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -713,6 +707,12 @@ SWIFT_CLASS("_TtC5EmAds16TUgqUxUyfRsxLIHI")
 + (CGFloat)statusBarHeight SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16GymbeWlmkMCwsSEK")
+@interface GymbeWlmkMCwsSEK : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
@@ -720,21 +720,21 @@ SWIFT_CLASS("_TtC5EmAds16TUgqUxUyfRsxLIHI")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16WnLAhhhzppvXqoTL")
-@interface WnLAhhhzppvXqoTL : NSObject
+SWIFT_CLASS("_TtC5EmAds16iAFcqeaiCfhuNOHa")
+@interface iAFcqeaiCfhuNOHa : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16sGWGaghRBFMLshio")
-@interface sGWGaghRBFMLshio : NSObject
+SWIFT_CLASS("_TtC5EmAds16mfXvXouCdellLaHi")
+@interface mfXvXouCdellLaHi : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16ttsmurjxqYIuztAA")
-@interface ttsmurjxqYIuztAA : NSObject
+SWIFT_CLASS("_TtC5EmAds16npsXmsLwsbDHHUkN")
+@interface npsXmsLwsbDHHUkN : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
