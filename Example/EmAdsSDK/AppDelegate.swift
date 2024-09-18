@@ -9,7 +9,12 @@
 import UIKit
 import EmAds
 
-let kAppId = "46" // 测试时，把此值修改为对应值，并把bundleid改为您的bundleid
+
+//let kAppId = "51"// 百度所有类型-APPID：51
+//let kAppId = "52" //快手所有类型-APPID：52, 快手已验证
+//let kAppId = "46" //所有广告类型（不包含快手）-APPID：46
+//let kAppId = "53" //所有广告类型（不包含百度）-APPID：53
+let kAppId = "52" // 测试时，把此值修改为对应值，并把bundleid改为您的bundleid
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

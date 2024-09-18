@@ -531,7 +531,7 @@
 				DEVELOPMENT_TEAM = 3RT6AZRB7F;
 				INFOPLIST_FILE = EmAdsSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.EmAdsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,7 +549,7 @@
 				DEVELOPMENT_TEAM = 3RT6AZRB7F;
 				INFOPLIST_FILE = EmAdsSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.EmAdsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";

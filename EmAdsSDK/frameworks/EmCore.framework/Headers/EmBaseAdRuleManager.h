@@ -79,6 +79,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) EmCGSizeWrapper *nativeExpressAdSizeWrapper;
 
+@property (nonatomic, assign) BOOL isLoadAndShow;
+
 - (void)destoryRule;
 
 - (instancetype)init;

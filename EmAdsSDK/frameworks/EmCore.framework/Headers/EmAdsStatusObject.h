@@ -50,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger ksNoAdFlag;
 
+@property (nonatomic, assign) NSInteger ruleType; // 规则类型，混合规则时（值为2），isUnSupportChannel恒为NO
 ///请求过的广告都返回空或者未请求
 - (BOOL)isAllEmpty;
 

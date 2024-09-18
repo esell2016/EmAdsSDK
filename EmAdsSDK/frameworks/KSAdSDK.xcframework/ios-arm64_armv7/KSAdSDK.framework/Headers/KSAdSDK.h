@@ -89,6 +89,12 @@
     #import <KSAdSDK/KSNativeAdRelatedView.h>
 #endif
 
+#if __has_include(<KSUBannerAd/KSBannerAd.h>)
+    #import <KSUBannerAd/KSBannerAd.h>
+#elif __has_include(<KSAdSDK/KSBannerAd.h>)
+    #import <KSAdSDK/KSBannerAd.h>
+#endif
+
 
 #if __has_include(<KSUVideoAd/KSRewardedVideoAd.h>)
     #import <KSUVideoAd/KSFullscreenVideoAd.h>
