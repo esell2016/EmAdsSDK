@@ -27,7 +27,7 @@
 
 
 //1只有甲方开发才打印输出， 默认对外的值为0
-#define DEBUGEnvForUS 1
+#define DEBUGEnvForUS 0
 
 #if DEBUGEnvForUS == 1
     #define EmAdLog(format,...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__]]
