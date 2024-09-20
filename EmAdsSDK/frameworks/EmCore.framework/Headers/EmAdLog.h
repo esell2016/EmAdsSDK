@@ -17,13 +17,13 @@
 
 #define EAD_LEVEL_ERROR_LOG(format,...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Error]
 
-#define EAD_LEVEL_WARING_LOG(format,...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Warning]
+#define EAD_LEVEL_WARING_LOG(format, ...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Warning]
 
 
-#define EAD_LEVEL_INFO_LOG(format,...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Info]
+#define EAD_LEVEL_INFO_LOG(format, ...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Info]
 
 
-#define EAD_LEVEL_DEBUG_LOG(format,...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Debug]
+#define EAD_LEVEL_DEBUG_LOG(format, ...)  [EmAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:EmAdLogLevel_Debug]
 
 
 //1只有甲方开发才打印输出， 默认对外的值为0

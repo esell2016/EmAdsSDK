@@ -36,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (instancetype)initWithJsonDic:(NSDictionary *)jsonDic
+                           xFor:(NSInteger)ruleType
                  viewController:(nonnull UIViewController *)viewController;
 
 

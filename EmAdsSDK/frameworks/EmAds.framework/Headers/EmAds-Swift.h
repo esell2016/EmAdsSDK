@@ -303,6 +303,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+SWIFT_CLASS("_TtC5EmAds16DeVqnirCbfEGZeGq")
+@interface DeVqnirCbfEGZeGq : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 /// 优量汇和穿⼭甲⽀持回调服务端激励验证信息Object
 SWIFT_CLASS("_TtC5EmAds25EARewardServerCallBackInf")
 @interface EARewardServerCallBackInf : NSObject
@@ -379,8 +385,6 @@ typedef SWIFT_ENUM(NSInteger, EmAdErrorCode, open) {
   EmAdErrorCodeUnsuppurtIOSVersion = 20988,
 /// showAd需要与loadAdOnly搭配使用
   EmAdErrorCodeLoadAdOnlyFirst = 20987,
-/// 信息流广告不支持竞价
-  EmAdErrorCodeUnsupportNativeExpressBidding = 20983,
 };
 
 
@@ -485,6 +489,7 @@ SWIFT_CLASS("_TtC5EmAds8EmBanner")
 /// 展示广告，和loadOnly()方法搭配使用
 - (void)show;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -526,6 +531,7 @@ SWIFT_CLASS("_TtC5EmAds17EmFullScreenVideo")
 /// 展示广告，和loadOnly()方法搭配使用
 - (void)show;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -555,6 +561,7 @@ SWIFT_CLASS("_TtC5EmAds14EmInterstitial")
 /// 展示广告，和loadOnly()方法搭配使用
 - (void)show;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -579,6 +586,7 @@ SWIFT_CLASS("_TtC5EmAds15EmNativeExpress")
 /// 仅拉取广告
 - (void)loadOnly;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -630,6 +638,7 @@ SWIFT_CLASS("_TtC5EmAds13EmRewardVideo")
 /// 展示广告，和loadOnly()方法搭配使用
 - (void)show;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -664,6 +673,7 @@ SWIFT_CLASS("_TtC5EmAds8EmSplash")
 /// 展示广告，和loadOnly()方法搭配使用
 - (void)show;
 /// 销毁广告
+/// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
 /// 拉取并展示广告
 - (void)loadAndShow;
@@ -680,47 +690,10 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
-@class UIColor;
-
-@interface UIImage (SWIFT_EXTENSION(EmAds))
-+ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds25cfs_INS_SafeBoolTransform")
-@interface cfs_INS_SafeBoolTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeDicTransform")
-@interface cfs_INS_SafeDicTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds26cfs_INS_SafeInt64Transform")
-@interface cfs_INS_SafeInt64Transform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeIntTransform")
-@interface cfs_INS_SafeIntTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds27cfs_INS_SafeStringTransform")
-@interface cfs_INS_SafeStringTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds19cfs_WindowLogHelper")
-@interface cfs_WindowLogHelper : NSObject
+SWIFT_CLASS("_TtC5EmAds16QlWRdBSjloKDWpEG")
+@interface QlWRdBSjloKDWpEG : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -730,6 +703,37 @@ SWIFT_CLASS("_TtC5EmAds19cfs_WindowLogHelper")
 + (CGFloat)bottomSafeArea SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)navigationBarHeight SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)statusBarHeight SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIColor;
+
+@interface UIImage (SWIFT_EXTENSION(EmAds))
++ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16coXiQwglawUvivqR")
+@interface coXiQwglawUvivqR : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16rQQbpllaGXJBsyGo")
+@interface rQQbpllaGXJBsyGo : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16rTLKlRqRtPKWWcjX")
+@interface rTLKlRqRtPKWWcjX : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16xNBRSaXrelxwWrui")
+@interface xNBRSaXrelxwWrui : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif

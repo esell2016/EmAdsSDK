@@ -56,6 +56,14 @@ NS_ASSUME_NONNULL_BEGIN
  * interstitial ad did close other controller
  */
 - (void)ksad_interstitialAdDidCloseOtherController:(KSInterstitialAd *)interstitialAd interactionType:(KSAdInteractionType)interactionType;
+/**
+ * interstitial ad video start play
+ */
+- (void)ksad_interstitialVideoAdStartPlay:(KSInterstitialAd *)interstitialAd;
+/**
+ * interstitial ad video play finish or play error
+ */
+- (void)ksad_interstitialVideoAdDidPlayFinish:(KSInterstitialAd *)interstitialAd didFailWithError:(NSError *_Nullable)error;
 
 @end
 

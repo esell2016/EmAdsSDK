@@ -39,16 +39,27 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)   NSString *appId;
 @property (nonatomic, copy)   NSString *adspotId;
 @property (nonatomic, copy)   NSString *tag;
-@property (nonatomic, strong)   NSNumber *index;
+@property (nonatomic, strong) NSNumber *index;
 @property (nonatomic, assign) NSInteger adType;
 @property (nonatomic, assign) NSInteger ecpm; // 20240605日后新增
 @property (nonatomic, assign) NSInteger idfaEnabled; //20240618
 @property (nonatomic, copy)   NSString *idfa;
 
-//渠道  1        百度2        优量汇 3        穿山甲 4        快手
+//渠道  1 百度 2 优量汇 3 穿山甲 4 快手
 @property (nonatomic, assign, readonly) NSInteger channelType;
 
+@property (nonatomic, assign) NSInteger mixSubRuleType;   //该字段在混合模式有效 ，解析后赋值，用于区分loadAdSucceed的方法是什么规则下调用的，1表示瀑布，2表示竞价
 
 @end
+
+
+
+@interface EmAdMixSupplierModel : NSObject
+
+@property (nonatomic, strong) EmAdSupplierModel *biddingSupplierModel;
+@property (nonatomic, strong) EmAdSupplierModel *waterfallSupplierModel;
+
+@end
+
 
 NS_ASSUME_NONNULL_END

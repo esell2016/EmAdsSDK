@@ -28,7 +28,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-
+// 用于记录竞价时，各个渠道的拉取状态
 @interface EmLoadStatusObject : NSObject
 
 //@property (nonatomic, assign) NSString *TAG;
@@ -50,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 记录当前策略渠道的各个状态值
 @property (nonatomic, strong, nonnull) EmAdsStatusObject *statusObject;
+
+@property (nonatomic, strong, nonnull) EmAdsStatusObject *mixBiddingStatusObject;
+@property (nonatomic, strong, nonnull) EmAdsStatusObject *mixWaterfallStatusObject;
 
 /// 总超时时间
 @property (nonatomic, assign) NSInteger splashTimeout;
@@ -76,11 +79,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) EmCGSizeWrapper *nativeExpressAdSizeWrapper;
 
+@property (nonatomic, assign) BOOL isLoadAndShow;
+
+- (void)destoryRule;
+
 - (instancetype)init;
 /// 判断传入的JSON是否有效
-+ (BOOL)validJson:(NSDictionary *)jsonDic;
++ (BOOL)validJson:(NSDictionary *)jsonDic xFor:(NSInteger)ruleType;
 
-- (void)startRuleEngineWith:(EmAdSupplierModel *)sModel;
+
+//sModel 可能是EmAdSupplierModel（竞价和瀑布） 可能是EmAdMixSupplierModel（混合）
+- (void)startRuleEngineWith:(id)sModel;
 
 - (NSError *)showAdWhenRuleFinished;
 

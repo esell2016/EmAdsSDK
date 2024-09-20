@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 初始化方法
 /// @param jsonDic  策略广告的策略信息 json格式请参考 DataJson目录下的.json文件
-- (instancetype)initWithJsonDic:(NSDictionary *_Nonnull)jsonDic;
+- (instancetype)initWithJsonDic:(NSDictionary *_Nonnull)jsonDic xFor:(NSInteger)ruleType;
 
 ///所有策略都执行失败， 广告对象加载规则过程只会执行一次
 @property (nonatomic, copy) void(^blockLoadAllChannelFailed)(NSError *_Nonnull err);
@@ -34,9 +34,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 策略执行后，可以调用Query接口， 广告对象加载规则过程只会执行一次
 @property (nonatomic, copy) void(^blockNeedAdReportQuery)(void);
 
+@property (nonatomic, copy) void(^blockLog)(NSString *msg);
 
 /// 判断传入的JSON是否有效
-+ (BOOL)validJson:(NSDictionary *)jsonDic;
++ (BOOL)validJson:(NSDictionary *)jsonDic xFor:(NSInteger)ruleType;
 
 /// 加载广告
 - (void)loadAdOnly;

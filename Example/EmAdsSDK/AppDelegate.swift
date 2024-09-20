@@ -9,7 +9,8 @@
 import UIKit
 import EmAds
 
-let kAppId = "26" // 测试时，把此值修改为对应值，并把bundleid改为您的bundleid
+
+let kAppId = "38" // 测试时，把此值修改为对应值，并把bundleid改为您的bundleid
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -66,7 +67,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
-internal let DEMO_TAG = "DemoDebug"
+internal let DEMO_TAG = "$DemoDebug"
 internal func SDemoDebugLog<T: StringProtocol>(_ message: T, fileName: String = #file, methodName: String = #function, lineNumber: Int = #line) {
     
 
@@ -78,7 +79,11 @@ internal func SDemoDebugLog<T: StringProtocol>(_ message: T, fileName: String = 
     // 要把路径最后的字符串截取出来
     let lastName = ((fileName as NSString).pathComponents.last!)
     let fullMessage = "\(DEMO_TAG) [\(dformatter.string(from: now))] [\(lastName)][line \(lineNumber)]# \(message)"
+#if DEBUG
     print(fullMessage)
+#else
+    NSLog(fullMessage)
+#endif
     NotificationCenter.default.post(name: kNotificationNameLogTextAppend, object: fullMessage)
 
 }

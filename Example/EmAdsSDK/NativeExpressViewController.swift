@@ -163,6 +163,7 @@ extension NativeExpressViewController: UITableViewDelegate, UITableViewDataSourc
             return (item as! ExamCellModel).cellh!
         } else {
             if let ex = (item as? EmNativeExpressView)?.expressView {
+                print("height \(ex.frame.size.height)")
                 return ex.frame.size.height
             }
         }

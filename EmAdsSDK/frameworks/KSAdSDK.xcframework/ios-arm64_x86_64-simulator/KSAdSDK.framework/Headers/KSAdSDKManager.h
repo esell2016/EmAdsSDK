@@ -67,6 +67,8 @@ typedef NS_ENUM(NSInteger, KSAdFeedVideoAutoPlayType) {
 
 /// 内容联盟SDK、广告联盟SDK使用
 + (void)startWithCompletionHandler:(KSAdCompletionHandler)completionHandler;
+/// 同步方法 内容联盟SDK、广告联盟SDK使用
++ (void)startSyncWithCompletionHandler:(KSAdCompletionHandler)completionHandler;
 
 /// 仅使用电商联盟SDK，初始化时使用，appKey，wbIndex 需要联系商务申请
 + (KSAdErrorCode)startWithAppId:(NSString *)appId appKey:(NSString *)appKey wbIndex:(NSString *)wbIndex;

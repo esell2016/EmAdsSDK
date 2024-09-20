@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmAdsSDK'
-  s.version          = '1.0.8'
+  s.version          = '1.1.1'
   #  summary 在140 个字符以内
   s.summary      = "EmAdsSDK 是一款广告变现的 SDK，由Esell公司研发，将百度、穿山甲、快手、腾讯广告联盟集合到一起，支持瀑布和竞价方式展示广告，使您的收益最大化。"
 
@@ -74,10 +74,17 @@ Pod::Spec.new do |s|
   ]
       
       
-  s.resource_bundles = {
+  #s.resource_bundles = {
   #   'EmAdsSDK' => ['EmAdsSDK/Assets/*.png']
-    'EmAdsSDK' => ['EmAdsSDK/frameworks/*.bundle']
-  }
+  #   下面会将2个文件合并到EmAdsSDK.bundle中去，导致内部SDK无法访问到资源
+  #   'EmAdsSDK' => ['EmAdsSDK/frameworks/baidumobadsdk.bundle', 'EmAdsSDK/frameworks/CSJAdSDK.bundle'] #
+  #}
+  
+  #下面方式会独立存在，但是它可能会产生资源名称冲突‌。
+  s.resources = [
+    'EmAdsSDK/frameworks/baidumobadsdk.bundle',
+    'EmAdsSDK/frameworks/CSJAdSDK.bundle'
+  ]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

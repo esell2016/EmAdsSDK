@@ -9,12 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		0498407292AFE10AFA864EAFD6E3C1AD /* EmAdsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 491AED301AB10AA90D2E89ABD4A70B17 /* Build configuration list for PBXAggregateTarget "EmAdsSDK" */;
+			buildConfigurationList = 06F6B531D84F4516C5BBF58DDB65071D /* Build configuration list for PBXAggregateTarget "EmAdsSDK" */;
 			buildPhases = (
-				CC978A5680A86026131BAAE5A9FFE33A /* [CP] Copy XCFrameworks */,
+				9D54FBBFCB0E173BE1C5C60811970ED0 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				1C61ACF8A5B0CE4093170A5378CB915E /* PBXTargetDependency */,
 			);
 			name = EmAdsSDK;
 		};
@@ -24,8 +23,6 @@
 		05B1A4109A2280D6B3FAE9F5429B59F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0C49B63DD4A8580EA5EB24C73DF049DB /* Pods-EmAdsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2ACD474D1901BB89303441B66A78B /* Pods-EmAdsSDK_Tests-dummy.m */; };
 		1CA69B88694D337367657C0E35452762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		54117609F4AFAD6C0CCFAB75A7459967 /* CSJAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BCD7E5E80360D2389CAB528075B02C4C /* CSJAdSDK.bundle */; };
-		59348CB0EC355415186BA155DE337963 /* baidumobadsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A42F1CBF68E48D38B1F46DE5B221298E /* baidumobadsdk.bundle */; };
 		80110E2DA5A8D9AE40EF370A9FB3AEE2 /* Pods-EmAdsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD781B1546BCCB4FF8054F1F8707AAE /* Pods-EmAdsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		896CE7C616D4DFC40D2A78B9D5B54BD7 /* Pods-EmAdsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FD65785EDB72E5284A1E90D89A7902 /* Pods-EmAdsSDK_Example-dummy.m */; };
 		EA653017428D9308DC8C2ED0515E8AF4 /* Pods-EmAdsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 568766999D949DF7B4B0D8300FAC8B32 /* Pods-EmAdsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,14 +36,7 @@
 			remoteGlobalIDString = 0498407292AFE10AFA864EAFD6E3C1AD;
 			remoteInfo = EmAdsSDK;
 		};
-		543866AE17D89B13A4F69FA9EBA039C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFDFEF86BFA8ACA2D91C95142D8D347E;
-			remoteInfo = "EmAdsSDK-EmAdsSDK";
-		};
-		8A0583F0C12B6B395D307114190C341B /* PBXContainerItemProxy */ = {
+		C1A4C35E8CB9F357A5A422CFFF8B442D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -56,18 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D6CF5471EDE6CF04EB7E9960932B31 /* EmAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmAdsSDK.release.xcconfig; sourceTree = "<group>"; };
+		0E997BF4B356FBC19D20A7CDDB9F6BBE /* EmCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmCore.framework; path = EmAdsSDK/frameworks/EmCore.framework; sourceTree = "<group>"; };
 		11987CEFF34096E3B4243074EE624868 /* Pods-EmAdsSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmAdsSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		17515C3911BD4DBA8DF6A6AD7BB8C369 /* Pods-EmAdsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		27031809F1A96B17ADA1E1E88BC46B5E /* Pods-EmAdsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmAdsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27F2ACD474D1901BB89303441B66A78B /* Pods-EmAdsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmAdsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D21BFAA247E87609E276694D3A73AF5 /* Pods-EmAdsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmAdsSDK_Example.modulemap"; sourceTree = "<group>"; };
-		3C2CAB5939675C480862E3FA6E99768E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		327F51077FD8F28AF9D60946B2F09F23 /* KSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KSAdSDK.xcframework; path = EmAdsSDK/frameworks/KSAdSDK.xcframework; sourceTree = "<group>"; };
 		48FD65785EDB72E5284A1E90D89A7902 /* Pods-EmAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		568766999D949DF7B4B0D8300FAC8B32 /* Pods-EmAdsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmAdsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		597D1A54A6815E2B0C319125BB51FFC5 /* ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist"; sourceTree = "<group>"; };
-		5D42D152C442A05B85651A605B7D70BE /* EmAdsSDK-EmAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "EmAdsSDK-EmAdsSDK"; path = EmAdsSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ECF6160C0DE46F710990E73FB64509 /* Pods-EmAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65D5630491D31DF05213F53CC1F45EE5 /* EmAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmAdsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		67D4636812A168D0907F2667E000BB7F /* Pods-EmAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		97601D9189A8160F2B4FE2ED6FE721FB /* Pods-EmAdsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -75,22 +64,21 @@
 		9A3FE01811C029FD9BD2E7D9581809FF /* Pods-EmAdsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3C653F60ACFB5843E62699FAB9CF854 /* Pods-EmAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		A3EEF69BE4269AF024A0A4B98AEC771B /* KSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KSAdSDK.xcframework; path = EmAdsSDK/frameworks/KSAdSDK.xcframework; sourceTree = "<group>"; };
-		A42F1CBF68E48D38B1F46DE5B221298E /* baidumobadsdk.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = baidumobadsdk.bundle; path = EmAdsSDK/frameworks/baidumobadsdk.bundle; sourceTree = "<group>"; };
-		A5B3E4A26CBD711185A791EAC86E45AA /* EmAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmAdsSDK.release.xcconfig; sourceTree = "<group>"; };
-		A6577D9FE1D8D9EA72A9568FDAC2DAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BAD781B1546BCCB4FF8054F1F8707AAE /* Pods-EmAdsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmAdsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC16F2B24BA4EECA922B23CE68E2BF93 /* Pods-EmAdsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmAdsSDK_Example"; path = Pods_EmAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCD7E5E80360D2389CAB528075B02C4C /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = EmAdsSDK/frameworks/CSJAdSDK.bundle; sourceTree = "<group>"; };
 		BEF7DCD1C08CEC45EF42E82F72BFA703 /* Pods-EmAdsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmAdsSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		BEFBFA023C5256BA062FE252B333EF85 /* Pods-EmAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CAE47BAAEC25835EF07EFA4567D1DE85 /* EmAdsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "EmAdsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		BFDD23305B3B276549483149D13FF0C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C52C9AD7A0E7419BA147E44B29E8CA0D /* EmAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmAdsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C9CF256317924C31D833C1FC14F90787 /* EmAdsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "EmAdsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		CE9098E37CE56461F98BACAFD75374C0 /* baidumobadsdk.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = baidumobadsdk.bundle; path = EmAdsSDK/frameworks/baidumobadsdk.bundle; sourceTree = "<group>"; };
 		CF6BE4408B882B425726CF3AB07606CB /* Pods-EmAdsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmAdsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBC945B63A5A4ACEE7B47B8641B3B052 /* EmAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E22E2D575243D76F8A8E66EA1433A8A5 /* EmCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmCore.framework; path = EmAdsSDK/frameworks/EmCore.framework; sourceTree = "<group>"; };
-		F115DD0987FB72A741606FA46B1B2EF3 /* EmAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmAds.framework; path = EmAdsSDK/frameworks/EmAds.framework; sourceTree = "<group>"; };
+		E2B2A1EFBF98F1BD6D49010866B8F835 /* EmAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmAds.framework; path = EmAdsSDK/frameworks/EmAds.framework; sourceTree = "<group>"; };
+		EC4CADDEB9725348AAAAC1C7821D8C34 /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = EmAdsSDK/frameworks/CSJAdSDK.bundle; sourceTree = "<group>"; };
 		F12A6D8DFBB2245DD4BA32251257E847 /* Pods-EmAdsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmAdsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F4C76D9A818F7DAB9A0EB8E2CB6E0F92 /* Pods-EmAdsSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmAdsSDK_Tests"; path = Pods_EmAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5F9EBEF6FC8E70C2DC19663DEA7AA1 /* EmAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD28D2C3CA9A8C8665B1C85FC7811F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,16 +98,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95F410C86D90CE44F38B91931E30EA49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04444BEF029DAE8431CA615088DE6F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2A1EFBF98F1BD6D49010866B8F835 /* EmAds.framework */,
+				0E997BF4B356FBC19D20A7CDDB9F6BBE /* EmCore.framework */,
+				327F51077FD8F28AF9D60946B2F09F23 /* KSAdSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1ED60A09C1565836A672F992EF37663F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,67 +128,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6B9929545926DA7FBD3DF97C9836D0A4 /* Frameworks */ = {
+		63489836E66173DAE0839EF10F4881D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F115DD0987FB72A741606FA46B1B2EF3 /* EmAds.framework */,
-				E22E2D575243D76F8A8E66EA1433A8A5 /* EmCore.framework */,
-				A3EEF69BE4269AF024A0A4B98AEC771B /* KSAdSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7EEE30AEEE2FDCA9BA0028A3400D4E0B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CAE47BAAEC25835EF07EFA4567D1DE85 /* EmAdsSDK-xcframeworks.sh */,
-				65D5630491D31DF05213F53CC1F45EE5 /* EmAdsSDK.debug.xcconfig */,
-				A5B3E4A26CBD711185A791EAC86E45AA /* EmAdsSDK.release.xcconfig */,
-				597D1A54A6815E2B0C319125BB51FFC5 /* ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist */,
+				C9CF256317924C31D833C1FC14F90787 /* EmAdsSDK-xcframeworks.sh */,
+				C52C9AD7A0E7419BA147E44B29E8CA0D /* EmAdsSDK.debug.xcconfig */,
+				02D6CF5471EDE6CF04EB7E9960932B31 /* EmAdsSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EmAdsSDK";
 			sourceTree = "<group>";
 		};
-		8C1AB08521D095169FA79493FE33665D /* EmAdsSDK */ = {
+		8975A47F501419BBEC8C1206C4A10A3A /* EmAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A42F1CBF68E48D38B1F46DE5B221298E /* baidumobadsdk.bundle */,
-				BCD7E5E80360D2389CAB528075B02C4C /* CSJAdSDK.bundle */,
-				6B9929545926DA7FBD3DF97C9836D0A4 /* Frameworks */,
-				AC19A1144EF44E792D75929A8E81C13F /* Pod */,
-				7EEE30AEEE2FDCA9BA0028A3400D4E0B /* Support Files */,
+				CE9098E37CE56461F98BACAFD75374C0 /* baidumobadsdk.bundle */,
+				EC4CADDEB9725348AAAAC1C7821D8C34 /* CSJAdSDK.bundle */,
+				04444BEF029DAE8431CA615088DE6F7D /* Frameworks */,
+				9B8CE3AEB255F1CACDB172145B43FB0C /* Pod */,
+				63489836E66173DAE0839EF10F4881D6 /* Support Files */,
 			);
 			name = EmAdsSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A274C822982A10F8C58D0DF4DF2723D3 /* Development Pods */ = {
+		9B8CE3AEB255F1CACDB172145B43FB0C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8C1AB08521D095169FA79493FE33665D /* EmAdsSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AC19A1144EF44E792D75929A8E81C13F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DBC945B63A5A4ACEE7B47B8641B3B052 /* EmAdsSDK.podspec */,
-				3C2CAB5939675C480862E3FA6E99768E /* LICENSE */,
-				A6577D9FE1D8D9EA72A9568FDAC2DAC4 /* README.md */,
+				FA5F9EBEF6FC8E70C2DC19663DEA7AA1 /* EmAdsSDK.podspec */,
+				BFDD23305B3B276549483149D13FF0C7 /* LICENSE */,
+				FD28D2C3CA9A8C8665B1C85FC7811F85 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B74F6B27F5034EABB1D6C69644F4A2D0 /* Products */ = {
+		A274C822982A10F8C58D0DF4DF2723D3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D42D152C442A05B85651A605B7D70BE /* EmAdsSDK-EmAdsSDK */,
-				BC16F2B24BA4EECA922B23CE68E2BF93 /* Pods-EmAdsSDK_Example */,
-				F4C76D9A818F7DAB9A0EB8E2CB6E0F92 /* Pods-EmAdsSDK_Tests */,
+				8975A47F501419BBEC8C1206C4A10A3A /* EmAdsSDK */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -206,7 +176,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A274C822982A10F8C58D0DF4DF2723D3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B74F6B27F5034EABB1D6C69644F4A2D0 /* Products */,
+				EF0B44A5EC5C0FC9A36332A9D5A0399E /* Products */,
 				1ED60A09C1565836A672F992EF37663F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -253,6 +223,15 @@
 			path = "Target Support Files/Pods-EmAdsSDK_Example";
 			sourceTree = "<group>";
 		};
+		EF0B44A5EC5C0FC9A36332A9D5A0399E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC16F2B24BA4EECA922B23CE68E2BF93 /* Pods-EmAdsSDK_Example */,
+				F4C76D9A818F7DAB9A0EB8E2CB6E0F92 /* Pods-EmAdsSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -287,29 +266,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				61F23E260B98910C1DF9CE4BA159EE3B /* PBXTargetDependency */,
+				151200844717E5CB351E86BAFB046A02 /* PBXTargetDependency */,
 			);
 			name = "Pods-EmAdsSDK_Tests";
 			productName = Pods_EmAdsSDK_Tests;
 			productReference = F4C76D9A818F7DAB9A0EB8E2CB6E0F92 /* Pods-EmAdsSDK_Tests */;
 			productType = "com.apple.product-type.framework";
-		};
-		CFDFEF86BFA8ACA2D91C95142D8D347E /* EmAdsSDK-EmAdsSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 13D949CE588E24235598C4806DEAD16F /* Build configuration list for PBXNativeTarget "EmAdsSDK-EmAdsSDK" */;
-			buildPhases = (
-				F700E9135219F1F751CD9768A5C51253 /* Sources */,
-				95F410C86D90CE44F38B91931E30EA49 /* Frameworks */,
-				00604613A421553E4653F35ED580AD23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EmAdsSDK-EmAdsSDK";
-			productName = EmAdsSDK;
-			productReference = 5D42D152C442A05B85651A605B7D70BE /* EmAdsSDK-EmAdsSDK */;
-			productType = "com.apple.product-type.bundle";
 		};
 		E25A99DCB78C0F32F0E08FF62151FF15 /* Pods-EmAdsSDK_Example */ = {
 			isa = PBXNativeTarget;
@@ -348,12 +310,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B74F6B27F5034EABB1D6C69644F4A2D0 /* Products */;
+			productRefGroup = EF0B44A5EC5C0FC9A36332A9D5A0399E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0498407292AFE10AFA864EAFD6E3C1AD /* EmAdsSDK */,
-				CFDFEF86BFA8ACA2D91C95142D8D347E /* EmAdsSDK-EmAdsSDK */,
 				E25A99DCB78C0F32F0E08FF62151FF15 /* Pods-EmAdsSDK_Example */,
 				B8359D90A34C1A92373E6249F15636BB /* Pods-EmAdsSDK_Tests */,
 			);
@@ -361,15 +322,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00604613A421553E4653F35ED580AD23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59348CB0EC355415186BA155DE337963 /* baidumobadsdk.bundle in Resources */,
-				54117609F4AFAD6C0CCFAB75A7459967 /* CSJAdSDK.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		44909DCC66463695799139B5EB414BD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,7 +339,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CC978A5680A86026131BAAE5A9FFE33A /* [CP] Copy XCFrameworks */ = {
+		9D54FBBFCB0E173BE1C5C60811970ED0 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,21 +376,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F700E9135219F1F751CD9768A5C51253 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C61ACF8A5B0CE4093170A5378CB915E /* PBXTargetDependency */ = {
+		151200844717E5CB351E86BAFB046A02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "EmAdsSDK-EmAdsSDK";
-			target = CFDFEF86BFA8ACA2D91C95142D8D347E /* EmAdsSDK-EmAdsSDK */;
-			targetProxy = 543866AE17D89B13A4F69FA9EBA039C3 /* PBXContainerItemProxy */;
+			name = "Pods-EmAdsSDK_Example";
+			target = E25A99DCB78C0F32F0E08FF62151FF15 /* Pods-EmAdsSDK_Example */;
+			targetProxy = C1A4C35E8CB9F357A5A422CFFF8B442D /* PBXContainerItemProxy */;
 		};
 		4B2C2D1960C7E78C1FF9A994E8625A8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -446,32 +391,9 @@
 			target = 0498407292AFE10AFA864EAFD6E3C1AD /* EmAdsSDK */;
 			targetProxy = 51EC365397576A57AA46B0CDCED39837 /* PBXContainerItemProxy */;
 		};
-		61F23E260B98910C1DF9CE4BA159EE3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EmAdsSDK_Example";
-			target = E25A99DCB78C0F32F0E08FF62151FF15 /* Pods-EmAdsSDK_Example */;
-			targetProxy = 8A0583F0C12B6B395D307114190C341B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20B3EB16A135160765E19C42AE760F34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B3E4A26CBD711185A791EAC86E45AA /* EmAdsSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmAdsSDK";
-				IBSC_MODULE = EmAdsSDK;
-				INFOPLIST_FILE = "Target Support Files/EmAdsSDK/ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = EmAdsSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		2135CC01B4395489919D62B8B7B0015C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEFBFA023C5256BA062FE252B333EF85 /* Pods-EmAdsSDK_Example.debug.xcconfig */;
@@ -570,19 +492,6 @@
 			};
 			name = Debug;
 		};
-		4172AC5C2A3F4DFCD566C89C04D980D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D5630491D31DF05213F53CC1F45EE5 /* EmAdsSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		64C37403087A4DD0F05DB085760F9496 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67D4636812A168D0907F2667E000BB7F /* Pods-EmAdsSDK_Tests.release.xcconfig */;
@@ -615,23 +524,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		70B366EA9AF31E791E7A894F82E2438D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D5630491D31DF05213F53CC1F45EE5 /* EmAdsSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmAdsSDK";
-				IBSC_MODULE = EmAdsSDK;
-				INFOPLIST_FILE = "Target Support Files/EmAdsSDK/ResourceBundle-EmAdsSDK-EmAdsSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = EmAdsSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		84DE0125345CF25A2D0F264878EAD693 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -666,9 +558,22 @@
 			};
 			name = Release;
 		};
-		9F47BCD0F04D8E74B5C8B5C6E549FB44 /* Release */ = {
+		C5D99319714D8C36A644691F16B6FA19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B3E4A26CBD711185A791EAC86E45AA /* EmAdsSDK.release.xcconfig */;
+			baseConfigurationReference = C52C9AD7A0E7419BA147E44B29E8CA0D /* EmAdsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C97F9467112E5E9C111C9F9505524126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D6CF5471EDE6CF04EB7E9960932B31 /* EmAdsSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -777,11 +682,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13D949CE588E24235598C4806DEAD16F /* Build configuration list for PBXNativeTarget "EmAdsSDK-EmAdsSDK" */ = {
+		06F6B531D84F4516C5BBF58DDB65071D /* Build configuration list for PBXAggregateTarget "EmAdsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70B366EA9AF31E791E7A894F82E2438D /* Debug */,
-				20B3EB16A135160765E19C42AE760F34 /* Release */,
+				C5D99319714D8C36A644691F16B6FA19 /* Debug */,
+				C97F9467112E5E9C111C9F9505524126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -791,15 +696,6 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		491AED301AB10AA90D2E89ABD4A70B17 /* Build configuration list for PBXAggregateTarget "EmAdsSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4172AC5C2A3F4DFCD566C89C04D980D8 /* Debug */,
-				9F47BCD0F04D8E74B5C8B5C6E549FB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
