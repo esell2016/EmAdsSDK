@@ -32,9 +32,8 @@
     "EmAdsSDK/frameworks/EmCore.framework",
     "EmAdsSDK/frameworks/EmAds.framework"
   ],
-  "resource_bundles": {
-    "EmAdsSDK": [
-      "EmAdsSDK/frameworks/*.bundle"
-    ]
-  }
+  "resources": [
+    "EmAdsSDK/frameworks/baidumobadsdk.bundle",
+    "EmAdsSDK/frameworks/CSJAdSDK.bundle"
+  ]
 }

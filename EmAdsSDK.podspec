@@ -74,10 +74,17 @@ Pod::Spec.new do |s|
   ]
       
       
-  s.resource_bundles = {
+  #s.resource_bundles = {
   #   'EmAdsSDK' => ['EmAdsSDK/Assets/*.png']
-    'EmAdsSDK' => ['EmAdsSDK/frameworks/*.bundle']
-  }
+  #   下面会将2个文件合并到EmAdsSDK.bundle中去，导致内部SDK无法访问到资源
+  #   'EmAdsSDK' => ['EmAdsSDK/frameworks/baidumobadsdk.bundle', 'EmAdsSDK/frameworks/CSJAdSDK.bundle'] #
+  #}
+  
+  #下面方式会独立存在，但是它可能会产生资源名称冲突‌。
+  s.resources = [
+    'EmAdsSDK/frameworks/baidumobadsdk.bundle',
+    'EmAdsSDK/frameworks/CSJAdSDK.bundle'
+  ]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

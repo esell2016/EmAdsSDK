@@ -97,10 +97,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/EmAdsSDK/EmAdsSDK.bundle"
+  install_resource "${PODS_ROOT}/../../EmAdsSDK/frameworks/baidumobadsdk.bundle"
+  install_resource "${PODS_ROOT}/../../EmAdsSDK/frameworks/CSJAdSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/EmAdsSDK/EmAdsSDK.bundle"
+  install_resource "${PODS_ROOT}/../../EmAdsSDK/frameworks/baidumobadsdk.bundle"
+  install_resource "${PODS_ROOT}/../../EmAdsSDK/frameworks/CSJAdSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
