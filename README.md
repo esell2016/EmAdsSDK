@@ -99,7 +99,7 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 # ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 1.1.1'
+pod 'EmAdsSDK', '~> 2.0.1'
 ``` 
   
 ## 在info.plist 增加
