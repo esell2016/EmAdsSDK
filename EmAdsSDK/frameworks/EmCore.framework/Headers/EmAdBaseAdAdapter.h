@@ -53,6 +53,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - supplier: 胜利方的信息
 - (void)biddingFailed:(NSInteger)bidEcpm winnerBidType:(NSInteger)bidType supplier:(EmAdSupplier *_Nullable)supplier;
 
+// 处理不同平台错误提示命名不一致的问题
+- (NSError *)unifyErrorDescription:(NSError *)error fromKey:(NSString *)errorDescKey;
+
 @end
 
 //在规则引擎中调用，放Extension中是不想让其被重载， 此处只关注加载和展示（load and show 的逻辑在manager中处理和EmBaseAdObject的相关子类中处理）

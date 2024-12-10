@@ -17,12 +17,31 @@ NS_ASSUME_NONNULL_BEGIN
 @interface EmBaseAdObject : NSObject
 
 /// 读取当前策略的各个状态值
-@property (nonatomic, strong, readonly) EmAdsStatusObject *statusObject;
+@property (nonatomic, strong, readonly) NSMutableArray<EmAdsStatusObject *> *statusObjectList;
+@property (nonatomic, strong, readonly) NSString *no;
 
 @property (nonatomic, assign, readonly) NSInteger ruleType;
 
+/// 瀑布流模式 0-正常模式 1-并行模式
+@property (nonatomic, assign) NSInteger waterFillModel;
+/// 并行请求模式  0-固定的数量代码位并行请求 1-相同代码位并行请求
+@property (nonatomic, assign) NSInteger waterFillParallelModel;
+/// 瀑布流并行请求数
+@property (nonatomic, assign) NSInteger waterFillParallelNum;
+/// 单次请求超时时间
+@property (nonatomic, assign) NSInteger onceTimeout;
+/// 总请求超时时间
+//@property (nonatomic, assign) NSInteger allTimeout;
+/// 竞价总请求超时时间
+@property (nonatomic, assign) NSInteger biddingAllTimeout;
+/// 瀑布流总请求超时时间
+@property (nonatomic, assign) NSInteger waterAllTimeout;
+
 /// 控制器(在一次广告周期中 不可更改, 不然会引起未知错误)
 @property(nonatomic, weak) UIViewController *viewController;
+
+/// 渠道比例映射
+@property (nonatomic, strong) NSDictionary *channelMap;
 
 /// 初始化方法
 /// @param jsonDic  策略广告的策略信息 json格式请参考 DataJson目录下的.json文件
@@ -53,6 +72,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// getter
 - (EmBaseAdRuleManager *)getCurrentRuleManager;
+
+///所有规则渠道未请求，SDK暂不支持的渠道类型, YES 表示不支持
+- (BOOL)isUnSupportChannel;
+//请求过的广告都返回空或者未请求
+- (BOOL)isAllEmpty;
 
 @end
 

@@ -15,17 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger slotType;
 
-@property (nonatomic, assign) NSInteger bdFlag;
-
-@property (nonatomic, assign) NSInteger ylhFlag;
-
-@property (nonatomic, assign) NSInteger csjFlag;
-
-@property (nonatomic, assign) NSInteger ksFlag;
-
+@property (nonatomic, assign) NSInteger flag;
 
 @property (nonatomic, copy) NSString *channelAppCode;
 @property (nonatomic, copy) NSString *channelSlotCode;
+
+@property (nonatomic, copy) NSString *reason;
+
+@property (nonatomic, assign) NSInteger requestTime;
+@property (nonatomic, assign) NSInteger requestDuration;
+@property (nonatomic, assign) NSInteger displayFlag;
 
 @property (nonatomic, assign) NSInteger channel;
 @property (nonatomic, assign) NSInteger duration;
@@ -41,21 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init;
 
-
-@property (nonatomic, assign) NSInteger bdNoAdFlag; // -1 表示默认， 1表示无广告， 2表示有广告
-
-@property (nonatomic, assign) NSInteger ylhNoAdFlag;
-
-@property (nonatomic, assign) NSInteger csjNoAdFlag;
-
-@property (nonatomic, assign) NSInteger ksNoAdFlag;
-
-@property (nonatomic, assign) NSInteger ruleType; // 规则类型，混合规则时（值为2），isUnSupportChannel恒为NO
-///请求过的广告都返回空或者未请求
-- (BOOL)isAllEmpty;
-
-/// 所有规则渠道未请求，SDK暂不支持的渠道类型, YES 表示不支持
-- (BOOL)isUnSupportChannel;
+- (void)doSetFlag:(NSString *)tag err:(NSError *)error;
 @end
 
 NS_ASSUME_NONNULL_END
@@ -84,8 +69,15 @@ typedef enum : NSUInteger {
     ChannelStatusFlagReqNoResponse = 1, //请求未响应
     ChannelStatusFlagReqAndResponse = 2, //请求并响应
     ChannelStatusFlagReqTimeOut = 3, //请求超时
-    ChannelStatusFlagReqError = 4 //请求错误
+    ChannelStatusFlagReqError = 4,//请求错误
+    ChannelStatusFlagRateLimitError = 5 //限流
 } ChannelStatusFlag;
+
+
+typedef enum : NSUInteger {
+    NoPlay = 0, //不会播放
+    Play = 1, //播放
+} displayFlag;
 
 
 
