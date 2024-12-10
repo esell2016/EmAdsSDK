@@ -12,6 +12,7 @@
 #import <EmCore/InnerEmAdError.h>
 #import <EmCore/EmAdLog.h>
 #import <EmCore/EmAdsStatusObject.h>
+#import <EmCore/EmWinStatusObject.h>
 #import <EmCore/EmAdNativeExpressView.h>
 #import <EmCore/EmCGSizeWrapper.h>
 #import <EmCore/EmAdBaseAdAdapter.h>
@@ -37,6 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) NSError *err;
 @property (nonatomic, strong, nullable) EmAdBaseAdAdapter *adapter;
 @property (nonatomic, strong, nullable) EmAdSupplier *supplier;
+@property (nonatomic, strong, nullable) EmAdsStatusObject *statusObject;
 - (BOOL)noLoad;
 - (BOOL)isResponse;
 - (BOOL)loadSucceed;
@@ -48,14 +50,33 @@ NS_ASSUME_NONNULL_BEGIN
 // 用于执行策略的父类
 @interface EmBaseAdRuleManager: NSObject
 
-/// 记录当前策略渠道的各个状态值
-@property (nonatomic, strong, nonnull) EmAdsStatusObject *statusObject;
+/// 记录成功策略渠道的各个状态值
+@property (nonatomic, strong, nonnull) EmWinStatusObject *winStatusObject;
+/// 记录所有请求过的策略渠道的各个状态值
+@property (nonatomic, strong, nonnull) NSMutableArray<EmAdsStatusObject *> *statusObjectList;
 
 @property (nonatomic, strong, nonnull) EmAdsStatusObject *mixBiddingStatusObject;
 @property (nonatomic, strong, nonnull) EmAdsStatusObject *mixWaterfallStatusObject;
 
+
+@property (nonatomic, strong, nonnull) NSString *no;
 /// 总超时时间
-@property (nonatomic, assign) NSInteger splashTimeout;
+//@property (nonatomic, assign) NSInteger splashTimeout;
+
+/// 瀑布流模式 0-正常模式 1-并行模式
+@property (nonatomic, assign) NSInteger waterFillModel;
+/// 并行请求模式  0-固定的数量代码位并行请求 1-相同价格代码位并行请求
+@property (nonatomic, assign) NSInteger waterFillParallelModel;
+/// 瀑布流并行请求数
+@property (nonatomic, assign) NSInteger waterFillParallelNum;
+/// 单次请求超时时间
+@property (nonatomic, assign) NSInteger onceTimeout;
+/// 竞价总请求超时时间
+@property (nonatomic, assign) NSInteger biddingAllTimeout;
+/// 瀑布流总请求超时时间
+@property (nonatomic, assign) NSInteger waterFillAllTimeout;
+/// 渠道比例映射
+@property (nonatomic, strong) NSDictionary<NSNumber *, NSNumber *> *channelMap;
 
 /// 是否必须展示Logo 默认: NO 注意: 强制展示Logo可能会影响收益 !!!  只有splash 广告类型会使用
 @property (nonatomic, assign) BOOL showLogoRequire;

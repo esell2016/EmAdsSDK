@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 广告方法回调代理
 @property (nonatomic, weak) id<EmAdInterstitialDelegate> delegate;
 
-
 @property (nonatomic, copy) void(^blockLoadStartChannel)(EmAdSupplier *supplier);
 
 @property (nonatomic, copy) void(^blockLoadChannelError)(EmAdSupplier *supplier, NSError *err);
