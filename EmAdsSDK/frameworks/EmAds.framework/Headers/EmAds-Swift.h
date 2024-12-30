@@ -302,13 +302,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16BMzQZQBnxiaSofRT")
-@interface BMzQZQBnxiaSofRT : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 /// 优量汇和穿⼭甲⽀持回调服务端激励验证信息Object
 SWIFT_CLASS("_TtC5EmAds25EARewardServerCallBackInf")
@@ -695,22 +688,22 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16GjFEGauAbZveAKZh")
+@interface GjFEGauAbZveAKZh : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16VjCNbxkkkpjvQflN")
-@interface VjCNbxkkkpjvQflN : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16WWqsqQFtnyutyFfp")
-@interface WWqsqQFtnyutyFfp : NSObject
+SWIFT_CLASS("_TtC5EmAds16XLxatoIizqwGkIyp")
+@interface XLxatoIizqwGkIyp : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -723,20 +716,27 @@ SWIFT_CLASS("_TtC5EmAds16WWqsqQFtnyutyFfp")
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16aTtkGqgMFbsSJEXZ")
-@interface aTtkGqgMFbsSJEXZ : NSObject
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16nTXDWoFXlJUjZVIX")
+@interface nTXDWoFXlJUjZVIX : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16tLjuIwfePJuBvMKK")
-@interface tLjuIwfePJuBvMKK : NSObject
+SWIFT_CLASS("_TtC5EmAds16ocTeQsVBKtmaIEhL")
+@interface ocTeQsVBKtmaIEhL : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5EmAds16tWGXiLUUBJxUobNM")
-@interface tWGXiLUUBJxUobNM : NSObject
+SWIFT_CLASS("_TtC5EmAds16tQKBcSTbTzgSbHur")
+@interface tQKBcSTbTzgSbHur : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16woEunKjByBuBphrM")
+@interface woEunKjByBuBphrM : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
