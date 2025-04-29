@@ -1,6 +1,12 @@
 
 # ● iOS EmAdsSDK更新日志
+## 2025-4-29      SDK 2.0.4
+
+1、更新百度SDK至5.39
+2、修复部分BUG
+
 ## 2024-12-10      SDK 2.0.1
+
 1、更新穿山甲SDK至6.5.0.5
 2、更新广点通SDK至4.15.10
 3、优化数据上报
@@ -100,8 +106,8 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 ## 在Podfile 中增加
 ```ruby
 pod 'EmAdsSDK', '~> 2.0.1'
-``` 
-  
+```
+
 ## 在info.plist 增加
 ```Objective-C
     SKAdNetworkItems - Array
@@ -124,7 +130,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //当启动方法中的idfaEnabled 为true/YES时，必须添加此项，否则可以不添加
 ```
 ## 代码集成见【 ● 手动集成 ———— 三、代码集成】
-    
+
 ## FAQ 1: 在Xcode 15环境中使用 pod install 安装运行后build, 您可能会遇到错误：
 ```
     Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Alamofire.ihLdr1
@@ -296,8 +302,8 @@ pod 'EmAdsSDK', '~> 2.0.1'
             //广告被点击的回调
         }
     }
-```    
-           
+```
+
 #### Objective-C
 ```Objective-C
     #import <EmAds/EmAds.h>
@@ -365,7 +371,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
     @end
 ```
 ## 2、Interstitial 广告集成
-    
+
 #### Swift
 ```Swift
     import EmAds
@@ -489,7 +495,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
     @end
 ```
 ## 3、 Banner 广告集成
-        
+
 #### Swift
 ```Swift
     import EmAds
@@ -536,7 +542,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
         }
     }
 ```
-        
+
 #### Objective-C
 ```Objective-C
     #import <EmAds/EmAds.h>
@@ -841,7 +847,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
 ```
 
 #### Objective-C
-        
+
 ```Objective-C
     #import <EmAds/EmAds.h>
 
@@ -1082,7 +1088,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
 ```
 
 ### 5、RewardVideo 广告集成
-    
+
 #### Swift
 ```Swift
     import EmAds
@@ -1158,9 +1164,9 @@ pod 'EmAdsSDK', '~> 2.0.1'
         
     }
 ```
-        
+
 #### Objective-C
-    
+
 ```Objective-C
     #import <EmAds/EmAds.h>
 
@@ -1255,7 +1261,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
 ```
 
 ### 6、 FullScreenVideo 广告集成
- 
+
 #### Swift
 ```Swift
     import EmAds
@@ -1320,9 +1326,9 @@ pod 'EmAdsSDK', '~> 2.0.1'
         }
         
     }
-```  
+```
 #### Objective-C 
-   
+
 ```Objective-C 
     #import <EmAds/EmAds.h>
 
