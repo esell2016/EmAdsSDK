@@ -3,13 +3,17 @@
 ## 2025-4-29      SDK 2.0.4
 
 1、更新百度SDK至5.39
+
 2、修复部分BUG
 
 ## 2024-12-10      SDK 2.0.1
 
 1、更新穿山甲SDK至6.5.0.5
+
 2、更新广点通SDK至4.15.10
+
 3、优化数据上报
+
 4、修复部分BUG
 
 ## 2024-09-19      SDK 1.1.1
@@ -69,8 +73,6 @@
 
 2、将其它渠道视频广告能关闭的声音关闭掉
 
-「
-
 快手的只有插屏Interstitial可以关，其它的也关不掉
 
 百度联盟 的都不能关闭
@@ -78,8 +80,6 @@
 优量汇的，NativeExpress RewardVideo FullScreenVideo Interstitial 可以关闭， Banner&Splash忽略
 
 穿山甲的，都没有设置静音的功能
-
-」
 
 ## 2024-05-21      SDK 1.0.0 
 1、修复EmAds.framework 1.0.0 iOS 12 运行crash 的问题
@@ -105,7 +105,7 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 # ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 2.0.1'
+pod 'EmAdsSDK', '~> 2.0.4'
 ```
 
 ## 在info.plist 增加
@@ -161,7 +161,7 @@ pod 'EmAdsSDK', '~> 2.0.1'
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-1.1.1/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-2.0.4/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
