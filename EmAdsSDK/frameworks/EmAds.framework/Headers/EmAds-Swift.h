@@ -481,6 +481,7 @@ SWIFT_CLASS("_TtC5EmAds8EmAdsSDK")
 SWIFT_CLASS("_TtC5EmAds8EmBanner")
 @interface EmBanner : NSObject
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController adContainer:(UIView * _Null_unspecified)adContainer delegate:(id <EmBannerDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 展示广告，和loadOnly()方法搭配使用
@@ -488,6 +489,7 @@ SWIFT_CLASS("_TtC5EmAds8EmBanner")
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -523,6 +525,7 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmBannerDelegate_")
 SWIFT_CLASS("_TtC5EmAds17EmFullScreenVideo")
 @interface EmFullScreenVideo : NSObject
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmFullScreenVideoDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 展示广告，和loadOnly()方法搭配使用
@@ -530,6 +533,7 @@ SWIFT_CLASS("_TtC5EmAds17EmFullScreenVideo")
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -553,6 +557,7 @@ SWIFT_PROTOCOL("_TtP5EmAds25EmFullScreenVideoDelegate_")
 SWIFT_CLASS("_TtC5EmAds14EmInterstitial")
 @interface EmInterstitial : NSObject
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmInterstitialDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 展示广告，和loadOnly()方法搭配使用
@@ -560,6 +565,7 @@ SWIFT_CLASS("_TtC5EmAds14EmInterstitial")
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -580,11 +586,13 @@ SWIFT_CLASS("_TtC5EmAds15EmNativeExpress")
 @property (nonatomic, readonly) BOOL isLoadAndShow;
 @property (nonatomic, readonly) BOOL isLoaded;
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmNativeExpressDelegate> _Nullable)delegate adSize:(CGSize)adSize OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -630,6 +638,7 @@ SWIFT_CLASS("_TtC5EmAds19EmNativeExpressView")
 SWIFT_CLASS("_TtC5EmAds13EmRewardVideo")
 @interface EmRewardVideo : NSObject
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmRewardVideoDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 展示广告，和loadOnly()方法搭配使用
@@ -637,6 +646,7 @@ SWIFT_CLASS("_TtC5EmAds13EmRewardVideo")
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -666,6 +676,7 @@ SWIFT_CLASS("_TtC5EmAds8EmSplash")
 /// biddingSplashTimeout这个参数已经提供给了外部使用，不能改参数名，不然对接方会报错
 @property (nonatomic) NSInteger biddingSplashTimeout;
 - (nonnull instancetype)initWithViewController:(UIViewController * _Null_unspecified)viewController delegate:(id <EmSplashDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)loadOnly;
 /// 仅拉取广告
 - (void)loadOnly:(NSNumber * _Nullable)emSlotId;
 /// 展示广告，和loadOnly()方法搭配使用
@@ -673,6 +684,7 @@ SWIFT_CLASS("_TtC5EmAds8EmSplash")
 /// 销毁广告
 /// 注意不要在错误的时间点调用，否则可能造成对象无法收到回调的问题
 - (void)destroy;
+- (void)loadAndShow;
 /// 拉取并展示广告
 - (void)loadAndShow:(NSNumber * _Nullable)emSlotId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -688,22 +700,10 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16GjFEGauAbZveAKZh")
-@interface GjFEGauAbZveAKZh : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIColor;
-
-@interface UIImage (SWIFT_EXTENSION(EmAds))
-+ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16XLxatoIizqwGkIyp")
-@interface XLxatoIizqwGkIyp : NSObject
+SWIFT_CLASS("_TtC5EmAds16RfZaphjzEPZXmqqY")
+@interface RfZaphjzEPZXmqqY : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -716,27 +716,39 @@ SWIFT_CLASS("_TtC5EmAds16XLxatoIizqwGkIyp")
 @end
 
 
+SWIFT_CLASS("_TtC5EmAds16TvUKJSEFHUQuPWXg")
+@interface TvUKJSEFHUQuPWXg : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+
+@interface UIImage (SWIFT_EXTENSION(EmAds))
++ (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16aaAkLuzwOXDIJcLR")
+@interface aaAkLuzwOXDIJcLR : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16fCEjsABhWsXqMgzH")
+@interface fCEjsABhWsXqMgzH : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16jPZctkZfYHISJEVl")
+@interface jPZctkZfYHISJEVl : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 /// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16nTXDWoFXlJUjZVIX")
-@interface nTXDWoFXlJUjZVIX : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16ocTeQsVBKtmaIEhL")
-@interface ocTeQsVBKtmaIEhL : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16tQKBcSTbTzgSbHur")
-@interface tQKBcSTbTzgSbHur : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16woEunKjByBuBphrM")
-@interface woEunKjByBuBphrM : NSObject
+SWIFT_CLASS("_TtC5EmAds16nSTaZODcZpOONXAj")
+@interface nSTaZODcZpOONXAj : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
