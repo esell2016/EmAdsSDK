@@ -165,6 +165,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeExpressOnAdClosed:(nullable EmAdNativeExpressView *)adView tSupplier:(EmAdSupplier *_Nonnull)supplier;
 
 
+// 添加SDK初始化相关方法
+- (BOOL)initializeSDKWithSupplier:(EmAdSupplier *)supplier;
+//
+- (NSString *)getAdapterClassNameForSupplier:(EmAdSupplier *)supplier;
+
 @end
 
 NS_ASSUME_NONNULL_END
