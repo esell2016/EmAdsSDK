@@ -28,6 +28,8 @@ extern NSString *const SDK_TAG_GDT;
 extern NSString *const SDK_TAG_CSJ;
 extern NSString *const SDK_TAG_KS;
 extern NSString *const SDK_TAG_BAIDU;
+extern NSString *const SDK_TAG_YXB;
+extern NSString *const SDK_TAG_YM;
 
 extern NSString *const EmAdSdkTypeAdName;
 extern NSString *const EmAdSdkTypeAdNameSplash;
@@ -45,11 +47,15 @@ extern NSString *const EmAdSdkTypeAdNameRewardVideo;
 + (NSString *)getKsSDKVersion;
 + (NSString *)getCsjSDKVersion;
 + (NSString *)getGdtSDKVersion;
++ (NSString *)getYxbSDKVersion;
++ (NSString *)getYmSDKVersion;
 
 + (void)initBDSDK: (NSString * _Nullable)bdAppId;
 + (void)initKSSDK: (NSString*)ksAppId;
 + (void)initCSJSDK: (NSString*)csjAppId;
 + (void)initGDTSDK: (NSString*)gdtAppId;
++ (void)initYxbSDK: (NSString*)yxbAppId;
++ (void)initYmSDK: (NSString*)ymAppId;
 
 + (UIWindow *)getRootWindow;
 
