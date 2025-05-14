@@ -109,7 +109,7 @@ EmAdsSDK 是一款广告变现的SDK，由Esell公司研发，将百度、穿山
 # ● Cocoapods自动集成
 ## 在Podfile 中增加
 ```ruby
-pod 'EmAdsSDK', '~> 2.0.4'
+pod 'EmAdsSDK', '~> 2.0.5'
 ```
 
 ## 在info.plist 增加
@@ -129,9 +129,63 @@ pod 'EmAdsSDK', '~> 2.0.4'
     App Transport Security Settings - Dictionary
     <key>NSAllowsArbitraryLoads</key>
     <true/>
-   
+      
+      <key>LSApplicationQueriesSchemes</key>
+        <array>
+         <string>HZBankDirect</string>
+         <string>dingtalk-sso</string>
+         <string>dingtalk-open</string>
+         <string>dingtalk</string>
+         <string>mqqapi</string>
+         <string>mqq</string>
+         <string>mqzoneopensdk</string>
+         <string>wechat</string>
+         <string>weixin</string>
+         <string>weixinULAPI</string>
+         <string>tencent</string>
+         <string>taobao</string>
+         <string>tbopen</string>
+         <string>mqqopensdkapiV2</string>
+         <string>mqqopensdkapiV3</string>
+         <string>mqzone</string>
+         <string>mqqbrowser</string>
+         <string>mqqwpa</string>
+         <string>videogo20171114</string>
+         <string>eleme</string>
+         <string>vipshop</string>
+         <string>tmall</string>
+         <string>taobaolite</string>
+         <string>fleamarket</string>
+         <string>alipay</string>
+         <string>openApp.jdMobile</string>
+         <string>pinduoduo</string>
+         <string>sinaweibo</string>
+         <string>iqiyi</string>
+         <string>wbmain</string>
+         <string>diditaxi</string>
+         <string>imeituan</string>
+         <string>ucbrowser</string>
+         <string>baiduboxapp</string>
+         <string>youku</string>
+         <string>taobaolive</string>
+         <string>CtripWireless</string>
+         <string>meituanwaimai</string>
+         <string>qunaraphone</string>
+         <string>cainiao</string>
+   			 <string>taobaotravel</string>
+         <string>kaola</string>
+         <string>yanxuan</string>
+         <string>jdmobile</string>
+         <string>lianjiabeike</string>
+         <string>igrocery</string>
+         <string>iosamap</string>
+         <string>wdkhema</string>
+         <string>quark</string>
+         <string>xhsdiscover</string>
+ 				</array>
 
     Privacy - Tracking Usage Description 对应值 "APP需要使用您的IDFA跟踪展示广告信息" //当启动方法中的idfaEnabled 为true/YES时，必须添加此项，否则可以不添加
+      
 ```
 ## 代码集成见【 ● 手动集成 ———— 三、代码集成】
 
@@ -165,7 +219,7 @@ pod 'EmAdsSDK', '~> 2.0.4'
 
 ## 二、手动导入SDK
 
-### 1、将EmAdsSDK-2.0.4/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
+### 1、将EmAdsSDK-2.0.5/EmAdsSDK/frameworks 文件夹（README文件可以不需要）拖进Xcode Project工程， 勾选copy items if needed
 
 ### 2、选中目标Target, 切换到General选项卡, 滑动到Frameworks, Libraries, and Embedded Content栏, 将EmAds.framework，EmCore.framework，KSAdSDK.xcframework的Embed属性设置为Embed & Sign
 
