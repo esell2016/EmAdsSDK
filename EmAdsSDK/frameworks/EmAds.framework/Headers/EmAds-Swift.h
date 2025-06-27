@@ -1072,13 +1072,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds16AWSkfJILvsgpdnBc")
-@interface AWSkfJILvsgpdnBc : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 /// 优量汇和穿⼭甲⽀持回调服务端激励验证信息Object
 SWIFT_CLASS("_TtC5EmAds25EARewardServerCallBackInf")
@@ -1481,40 +1474,29 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16IFcOFWukSVaEEnRv")
+@interface IFcOFWukSVaEEnRv : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16MSSqMDSvKTMGjRfJ")
+@interface MSSqMDSvKTMGjRfJ : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds16lpXRpPXlIngPvFsL")
-@interface lpXRpPXlIngPvFsL : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16nyTkGeVupIrgGJAJ")
-@interface nyTkGeVupIrgGJAJ : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16saOYkKzTWAxyLnNm")
-@interface saOYkKzTWAxyLnNm : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds16ynmoVmFVkSnjaICi")
-@interface ynmoVmFVkSnjaICi : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds16zlRCbKRMkDwbwSXn")
-@interface zlRCbKRMkDwbwSXn : NSObject
+SWIFT_CLASS("_TtC5EmAds16WbNflfdOOKdiLMAe")
+@interface WbNflfdOOKdiLMAe : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -1524,6 +1506,24 @@ SWIFT_CLASS("_TtC5EmAds16zlRCbKRMkDwbwSXn")
 + (CGFloat)bottomSafeArea SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)navigationBarHeight SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)statusBarHeight SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16bLEFsyAOkupVZaum")
+@interface bLEFsyAOkupVZaum : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16kpHhqAbgVowUUpHj")
+@interface kpHhqAbgVowUUpHj : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16pfOeErxCQOtxooLO")
+@interface pfOeErxCQOtxooLO : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
