@@ -98,6 +98,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, weak) UIView *bannerContainnerView;
 
+@property(nonatomic, weak) UIView *splashContainerView;
+
 @property (nonatomic, strong) EmCGSizeWrapper *nativeExpressAdSizeWrapper;
 
 @property (nonatomic, assign) BOOL isLoadAndShow;
