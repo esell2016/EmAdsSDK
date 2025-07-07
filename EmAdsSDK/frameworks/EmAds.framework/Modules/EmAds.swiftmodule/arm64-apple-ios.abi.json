@@ -35160,7 +35160,7 @@
       "kind": "StringLiteral",
       "offset": 145,
       "length": 7,
-      "value": "\"v2.07\""
+      "value": "\"v2.08\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/EmAds.swift",
@@ -36019,1638 +36019,1708 @@
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 1408,
+      "offset": 1300,
+      "length": 62,
+      "value": "\"-EmSplash setAdContainer called with container: \""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 47,
+      "value": "\"-EmSplash container frame: \""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 49,
+      "value": "\"-EmSplash container bounds: \""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
+      "length": 69,
+      "value": "\"-EmSplash container window: \""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 50,
+      "value": "\"-EmSplash calling setAdContainer on inner splash\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
       "length": 17,
       "value": "\"setAdContainer:\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1880,
+      "length": 47,
+      "value": "\"-EmSplash inner splash is nil, will set later\""
+    },
+    {
+      "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
+      "kind": "StringLiteral",
+      "offset": 2186,
       "length": 21,
       "value": "\"-SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 2353,
       "length": 20,
       "value": "\"SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2019,
+      "offset": 2503,
       "length": 21,
       "value": "\"-SDK初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2189,
+      "offset": 2673,
       "length": 17,
       "value": "\"初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2816,
       "length": 15,
       "value": "\"-SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2498,
+      "offset": 2982,
       "length": 14,
       "value": "\"SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 3124,
       "length": 15,
       "value": "\"-网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 2802,
+      "offset": 3286,
       "length": 14,
       "value": "\"网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3812,
       "length": 39,
       "value": "\"-Splash渠道信息为空或者无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 3514,
+      "offset": 3998,
       "length": 32,
       "value": "\"渠道信息为空或者无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 3932,
+      "offset": 4416,
       "length": 17,
       "value": "\"setAdContainer:\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4064,
+      "offset": 4548,
       "length": 129,
       "value": "\"开始加载 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 4592,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4134,
+      "offset": 4618,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4160,
+      "offset": 4644,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4192,
+      "offset": 4676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4295,
+      "offset": 4779,
       "length": 143,
       "value": "\"加载错误 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4339,
+      "offset": 4823,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4365,
+      "offset": 4849,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4391,
+      "offset": 4875,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 4907,
       "length": 5,
       "value": "\" error: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4921,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4537,
+      "offset": 5021,
       "length": 129,
       "value": "\"加载成功 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4581,
+      "offset": 5065,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 5091,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4633,
+      "offset": 5117,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4665,
+      "offset": 5149,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4761,
+      "offset": 5245,
       "length": 14,
       "value": "\"开始竞价\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4844,
+      "offset": 5328,
       "length": 207,
       "value": "\"竞价 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4890,
+      "offset": 5374,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 5377,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 4927,
+      "offset": 5411,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4930,
+      "offset": 5414,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 5448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 4967,
+      "offset": 5451,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5007,
+      "offset": 5491,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5494,
       "length": 1,
       "value": "\", price: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 5047,
+      "offset": 5531,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5050,
+      "offset": 5534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5202,
+      "offset": 5686,
       "length": 218,
       "value": "\"竞价成功 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5255,
+      "offset": 5739,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5258,
+      "offset": 5742,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 5293,
+      "offset": 5777,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5296,
+      "offset": 5780,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5331,
+      "offset": 5815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5334,
+      "offset": 5818,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5375,
+      "offset": 5859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5378,
+      "offset": 5862,
       "length": 1,
       "value": "\", price: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 5416,
+      "offset": 5900,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5419,
+      "offset": 5903,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5470,
+      "offset": 5954,
       "length": 55,
       "value": "\"竞价结束 出现error：\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5524,
+      "offset": 6008,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 5697,
+      "offset": 6181,
       "length": 46,
       "value": "\"-Splash 有渠道获取成功，执行上报\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Array",
-      "offset": 5863,
+      "offset": 6347,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 7574,
+      "offset": 8058,
       "length": 82,
       "value": "\"-Splash 所有策略渠道均执行完毕，但未获取到合适的广告数据\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Array",
-      "offset": 7714,
+      "offset": 8198,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 9257,
+      "offset": 9741,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 9374,
+      "offset": 9858,
       "length": 50,
       "value": "\"策略调度时发⽣异常，不支持的渠道\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 9571,
+      "offset": 10055,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 9676,
+      "offset": 10160,
       "length": 20,
       "value": "\"广告内容为空\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 9830,
+      "offset": 10314,
       "length": 57,
       "value": "\"所有策略均执行失败,\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 9886,
+      "offset": 10370,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11004,
+      "offset": 11488,
       "length": 27,
       "value": "\"-Splash广告曝光成功\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11264,
+      "offset": 11748,
       "length": 57,
       "value": "\"-Splash广告出现 error: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 11804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11431,
+      "offset": 11915,
       "length": 65,
       "value": "\"-Splash内部渠道开始加载 supplierId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11492,
+      "offset": 11976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11495,
+      "offset": 11979,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11652,
+      "offset": 12136,
       "length": 21,
       "value": "\"-Splash广告点击\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 11910,
+      "offset": 12394,
       "length": 21,
       "value": "\"-Splash广告关闭\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 12185,
+      "offset": 12669,
       "length": 30,
       "value": "\"-Splash广告倒计时结束\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 12439,
+      "offset": 12923,
       "length": 24,
       "value": "\"-Splash点击了跳过\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 12651,
+      "offset": 13135,
       "length": 43,
       "value": "\"-Splash选中了 rule '\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 12688,
+      "offset": 13172,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 12691,
+      "offset": 13175,
       "length": 4,
       "value": "\"' \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 12922,
+      "offset": 13406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 13121,
+      "offset": 13605,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 13233,
+      "offset": 13717,
       "length": 24,
       "value": "\"-EmSplash loadAdOnly()\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 13291,
+      "offset": 13775,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 13466,
+      "offset": 13950,
       "length": 21,
       "value": "\"-SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 13633,
+      "offset": 14117,
       "length": 20,
       "value": "\"SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 13783,
+      "offset": 14267,
       "length": 21,
       "value": "\"-SDK初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 13953,
+      "offset": 14437,
       "length": 17,
       "value": "\"初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14096,
+      "offset": 14580,
       "length": 15,
       "value": "\"-SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14262,
+      "offset": 14746,
       "length": 14,
       "value": "\"SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14404,
+      "offset": 14888,
       "length": 15,
       "value": "\"-网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14566,
+      "offset": 15050,
       "length": 14,
       "value": "\"网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14694,
+      "offset": 15178,
       "length": 31,
       "value": "\"-请先调用loadOnly()方法\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 14775,
+      "offset": 15259,
       "length": 18,
       "value": "\"-EmSplash show()\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 14951,
+      "offset": 15435,
       "length": 5,
       "value": "37373"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 15067,
+      "offset": 15551,
       "length": 30,
       "value": "\"请先调用loadOnly()方法\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 15251,
+      "offset": 15735,
       "length": 49,
       "value": "\"广告展示失败, 请求超出设定总时长\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 15437,
+      "offset": 15921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 15630,
+      "offset": 16114,
       "length": 29,
       "value": "\"-Outside EmSplash destroy()\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 16647,
+      "offset": 17131,
       "length": 21,
       "value": "\"-SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 16814,
+      "offset": 17298,
       "length": 20,
       "value": "\"SDK正在初始化\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 16964,
+      "offset": 17448,
       "length": 21,
       "value": "\"-SDK初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 17134,
+      "offset": 17618,
       "length": 17,
       "value": "\"初始化失败\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 17277,
+      "offset": 17761,
       "length": 15,
       "value": "\"-SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 17443,
+      "offset": 17927,
       "length": 14,
       "value": "\"SDK未启用\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 17585,
+      "offset": 18069,
       "length": 15,
       "value": "\"-网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 17747,
+      "offset": 18231,
       "length": 14,
       "value": "\"网络离线\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 18273,
+      "offset": 18757,
       "length": 39,
       "value": "\"-Splash渠道信息为空或者无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 18459,
+      "offset": 18943,
       "length": 32,
       "value": "\"渠道信息为空或者无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 18886,
+      "offset": 19370,
       "length": 17,
       "value": "\"setAdContainer:\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19018,
+      "offset": 19502,
       "length": 129,
       "value": "\"开始加载 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19062,
+      "offset": 19546,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19088,
+      "offset": 19572,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19114,
+      "offset": 19598,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19146,
+      "offset": 19630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19249,
+      "offset": 19733,
       "length": 143,
       "value": "\"加载错误 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19293,
+      "offset": 19777,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19319,
+      "offset": 19803,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19345,
+      "offset": 19829,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19377,
+      "offset": 19861,
       "length": 5,
       "value": "\" error: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19391,
+      "offset": 19875,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19491,
+      "offset": 19975,
       "length": 129,
       "value": "\"加载成功 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19535,
+      "offset": 20019,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19561,
+      "offset": 20045,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19587,
+      "offset": 20071,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19619,
+      "offset": 20103,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19715,
+      "offset": 20199,
       "length": 14,
       "value": "\"开始竞价\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19798,
+      "offset": 20282,
       "length": 207,
       "value": "\"竞价 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19844,
+      "offset": 20328,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19847,
+      "offset": 20331,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 19881,
+      "offset": 20365,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19884,
+      "offset": 20368,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19918,
+      "offset": 20402,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19921,
+      "offset": 20405,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19961,
+      "offset": 20445,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 19964,
+      "offset": 20448,
       "length": 1,
       "value": "\", price: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 20001,
+      "offset": 20485,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20004,
+      "offset": 20488,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20156,
+      "offset": 20640,
       "length": 218,
       "value": "\"竞价成功 supplier: TAG: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20209,
+      "offset": 20693,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20212,
+      "offset": 20696,
       "length": 1,
       "value": "\", Index: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 20247,
+      "offset": 20731,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20250,
+      "offset": 20734,
       "length": 1,
       "value": "\", appId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20285,
+      "offset": 20769,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20288,
+      "offset": 20772,
       "length": 1,
       "value": "\", adspotId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20329,
+      "offset": 20813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20332,
+      "offset": 20816,
       "length": 1,
       "value": "\", price: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 20370,
+      "offset": 20854,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20373,
+      "offset": 20857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20424,
+      "offset": 20908,
       "length": 55,
       "value": "\"竞价结束 出现error：\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20478,
+      "offset": 20962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 20735,
+      "offset": 21219,
       "length": 46,
       "value": "\"-Splash 有渠道获取成功，执行上报\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Array",
-      "offset": 20901,
+      "offset": 21385,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 22535,
+      "offset": 23019,
       "length": 82,
       "value": "\"-Splash 所有策略渠道均执行完毕，但未获取到合适的广告数据\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Array",
-      "offset": 22688,
+      "offset": 23172,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 24231,
+      "offset": 24715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 24348,
+      "offset": 24832,
       "length": 50,
       "value": "\"策略调度时发⽣异常，不支持的渠道\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 24545,
+      "offset": 25029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 24650,
+      "offset": 25134,
       "length": 20,
       "value": "\"广告内容为空\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 24804,
+      "offset": 25288,
       "length": 58,
       "value": "\"所有策略均执行失败, \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 24861,
+      "offset": 25345,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 26021,
+      "offset": 26505,
       "length": 27,
       "value": "\"-Splash广告曝光成功\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 26281,
+      "offset": 26765,
       "length": 143,
       "value": "\"-Splash 已经竞价成功，但是展示的时候出现了6100错误（可能原因：下载资源错误、网络错误、无广告错误）\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Array",
-      "offset": 26482,
+      "offset": 26966,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 28066,
+      "offset": 28550,
       "length": 61,
       "value": "\"展示Splash广告失败(6100), \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 28126,
+      "offset": 28610,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 28368,
+      "offset": 28852,
       "length": 57,
       "value": "\"-Splash广告出现 error: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 28424,
+      "offset": 28908,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 28571,
+      "offset": 29055,
       "length": 4,
       "value": "6100"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29090,
+      "offset": 29574,
       "length": 65,
       "value": "\"-Splash内部渠道开始加载 supplierId: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29151,
+      "offset": 29635,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29154,
+      "offset": 29638,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29311,
+      "offset": 29795,
       "length": 21,
       "value": "\"-Splash广告点击\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29569,
+      "offset": 30053,
       "length": 21,
       "value": "\"-Splash广告关闭\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 29844,
+      "offset": 30328,
       "length": 30,
       "value": "\"-Splash广告倒计时结束\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 30098,
+      "offset": 30582,
       "length": 24,
       "value": "\"-Splash点击了跳过\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 30310,
+      "offset": 30794,
       "length": 43,
       "value": "\"-Splash选中了 rule '\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 30347,
+      "offset": 30831,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 30350,
+      "offset": 30834,
       "length": 4,
       "value": "\"' \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 30674,
+      "offset": 31158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 30857,
+      "offset": 31341,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 30992,
+      "offset": 31476,
       "length": 27,
       "value": "\"-EmSplash loadAndShowAd()\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 31527,
+      "offset": 32011,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 31819,
+      "offset": 32303,
       "length": 21,
       "value": "\"-EmSplash deallocAd\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 32328,
+      "offset": 32812,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 32430,
+      "offset": 32914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 32546,
+      "offset": 33030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 33500,
+      "offset": 33984,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 33786,
+      "offset": 34270,
       "length": 19,
       "value": "\"-EmSplash clickAd\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 34186,
+      "offset": 34670,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 34528,
+      "offset": 35012,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 34563,
+      "offset": 35047,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 34692,
+      "offset": 35176,
       "length": 25,
       "value": "\"广告位id：\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 34716,
+      "offset": 35200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 34898,
+      "offset": 35382,
       "length": 27,
       "value": "\"-Splash渠道信息为空\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 35072,
+      "offset": 35556,
       "length": 32,
       "value": "\"渠道信息为空或者无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 35141,
+      "offset": 35625,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 35144,
+      "offset": 35628,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 35149,
+      "offset": 35633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 35229,
+      "offset": 35713,
       "length": 20,
       "value": "\"使用竞价规则\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 35405,
+      "offset": 35889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 35459,
+      "offset": 35943,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 35529,
+      "offset": 36013,
       "length": 23,
       "value": "\"使用瀑布流规则\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 35710,
+      "offset": 36194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 35764,
+      "offset": 36248,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 36082,
+      "offset": 36566,
       "length": 9,
       "value": "\"bidding\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 36121,
+      "offset": 36605,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 36126,
+      "offset": 36610,
       "length": 11,
       "value": "\"waterfall\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 36169,
+      "offset": 36653,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 36197,
+      "offset": 36681,
       "length": 26,
       "value": "\"使用混合并行规则\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 36490,
+      "offset": 36974,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 37174,
+      "offset": 37658,
       "length": 9,
       "value": "\"bidding\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 37213,
+      "offset": 37697,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 37218,
+      "offset": 37702,
       "length": 11,
       "value": "\"waterfall\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 37261,
+      "offset": 37745,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 37289,
+      "offset": 37773,
       "length": 20,
       "value": "\"使用混合规则\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 37576,
+      "offset": 38060,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 37692,
+      "offset": 38176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 37719,
+      "offset": 38203,
       "length": 51,
       "value": "\"-Splash广告位获取不到对应的渠道信息\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 37920,
+      "offset": 38404,
       "length": 65,
       "value": "\"广告位获取不到对应的渠道信息或渠道信息无效\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 38022,
+      "offset": 38506,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "Dictionary",
-      "offset": 38025,
+      "offset": 38509,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 38030,
+      "offset": 38514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "BooleanLiteral",
-      "offset": 38094,
+      "offset": 38578,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 38874,
+      "offset": 39358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 39031,
+      "offset": 39515,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 39201,
+      "offset": 39685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 39308,
+      "offset": 39792,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 39432,
+      "offset": 39916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "IntegerLiteral",
-      "offset": 39563,
+      "offset": 40047,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39652,
+      "offset": 40136,
       "length": 290,
       "value": "\"竞价超时时间: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39691,
+      "offset": 40175,
       "length": 3,
       "value": "\"秒,瀑布流超时时间: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39738,
+      "offset": 40222,
       "length": 3,
       "value": "\"秒,瀑布流单个广告位等待时间: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39795,
+      "offset": 40279,
       "length": 3,
       "value": "\"秒,瀑布流模式: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39834,
+      "offset": 40318,
       "length": 1,
       "value": "\",瀑布流并行请求数: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39885,
+      "offset": 40369,
       "length": 1,
       "value": "\",瀑布流并行请求模式: \""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 39941,
+      "offset": 40425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/eselltech\/Dev\/em_sdk\/sdk-v2.0.4\/emadssdk\/EmAds\/src\/AdModule\/EmSplash.swift",
       "kind": "StringLiteral",
-      "offset": 40337,
+      "offset": 40821,
       "length": 18,
       "value": "\"-EmSplash deinit\""
     },
