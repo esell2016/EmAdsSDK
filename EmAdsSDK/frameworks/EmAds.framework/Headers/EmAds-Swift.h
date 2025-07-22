@@ -1476,47 +1476,22 @@ SWIFT_PROTOCOL("_TtP5EmAds16EmSplashDelegate_")
 - (void)onSplashSkip;
 @end
 
+
+SWIFT_CLASS("_TtC5EmAds16EnHaBYCeobRTlMhb")
+@interface EnHaBYCeobRTlMhb : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIColor;
 
 @interface UIImage (SWIFT_EXTENSION(EmAds))
 + (UIImage * _Nullable)ins_imageWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-SWIFT_CLASS("_TtC5EmAds25cfs_INS_SafeBoolTransform")
-@interface cfs_INS_SafeBoolTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeDicTransform")
-@interface cfs_INS_SafeDicTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds26cfs_INS_SafeInt64Transform")
-@interface cfs_INS_SafeInt64Transform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5EmAds24cfs_INS_SafeIntTransform")
-@interface cfs_INS_SafeIntTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
-SWIFT_CLASS("_TtC5EmAds27cfs_INS_SafeStringTransform")
-@interface cfs_INS_SafeStringTransform : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 
-SWIFT_CLASS("_TtC5EmAds19cfs_WindowLogHelper")
-@interface cfs_WindowLogHelper : NSObject
+SWIFT_CLASS("_TtC5EmAds16XrExISokwypVaKqM")
+@interface XrExISokwypVaKqM : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)showInWindow;
@@ -1526,6 +1501,31 @@ SWIFT_CLASS("_TtC5EmAds19cfs_WindowLogHelper")
 + (CGFloat)bottomSafeArea SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)navigationBarHeight SWIFT_WARN_UNUSED_RESULT;
 + (CGFloat)statusBarHeight SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16qZkPnYqqzpbghXDx")
+@interface qZkPnYqqzpbghXDx : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16qtqpqoftWQJmXUTy")
+@interface qtqpqoftWQJmXUTy : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5EmAds16tPJUrfUEFPWbZEWi")
+@interface tPJUrfUEFPWbZEWi : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// 在ObjectMapper映射过程中，将任何数据类型安全的转换成String。用法: foo <- (map[“foo”], SafeStringTransform()), 元组的第二个参数将map中的“foo”强制转换成String
+SWIFT_CLASS("_TtC5EmAds16ubUMNGndPSQJxbwM")
+@interface ubUMNGndPSQJxbwM : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
