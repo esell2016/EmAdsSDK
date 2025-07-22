@@ -39,6 +39,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 总超时时间
 @property (nonatomic, assign) NSInteger splashTimeout;
 
+/// 开屏广告容器视图
+@property (nonatomic, weak) UIView *adContainer;
+
 @property (nonatomic, copy) void(^blockLoadStartChannel)(EmAdSupplier *supplier);
 
 @property (nonatomic, copy) void(^blockLoadChannelError)(EmAdSupplier *supplier, NSError *err);
@@ -50,6 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void(^blockEndBidding)(EmLoadStatusObject *_Nullable statusObject, NSError *_Nullable err);
 
+/// 设置开屏广告容器视图
+- (void)setAdContainer:(UIView *)adContainer;
 
 - (instancetype)initWithJsonDic:(NSDictionary *_Nonnull)jsonDic
                            xFor:(NSInteger)ruleType
