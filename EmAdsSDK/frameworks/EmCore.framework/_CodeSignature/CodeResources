@@ -411,7 +411,7 @@
 		</dict>
 		<key>Frameworks/GDTMobSDK.framework/GDTMobSDK</key>
 		<data>
-		KY6PZM53tc5XrHZqmC9p629y+rg=
+		NdWIBtgGcJ52mdjBM8wybSMG7Fk=
 		</data>
 		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
 		<data>
@@ -431,7 +431,7 @@
 		</data>
 		<key>Frameworks/Tquic.framework/Tquic</key>
 		<data>
-		jorKEQEyoLVz58us7LDXXpDprBY=
+		tw3HsPt41zKI1c9IeU6Zw8m88ys=
 		</data>
 		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -475,7 +475,7 @@
 		</data>
 		<key>Headers/EmAdLog.h</key>
 		<data>
-		3JOGQ1iGidFiTmFYCnhcMsxN4vg=
+		Lv1VI55Bff2CykYAGRwxQnx5OQc=
 		</data>
 		<key>Headers/EmAdNativeExpress.h</key>
 		<data>
@@ -564,54 +564,6 @@
 		<key>SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		PFHYbs0V3eUFDWQyYQcwEetuqEk=
-		</data>
-		<key>YSAdvSDK.bundle/Info.plist</key>
-		<data>
-		0Hslc2Th587sIVNL5n3p3gyaE/4=
-		</data>
-		<key>YSAdvSDK.bundle/advData.json</key>
-		<data>
-		ZbFztkHu3c7RTdZMDy06xh2YJkg=
-		</data>
-		<key>YSAdvSDK.bundle/advData2.json</key>
-		<data>
-		FUPZFfqMHmjUfAhU0oj60rJycds=
-		</data>
-		<key>YSAdvSDK.bundle/adv_icn_close@2x.png</key>
-		<data>
-		Z4MaWgbmxxDnyu1z1w6+5RPBaC0=
-		</data>
-		<key>YSAdvSDK.bundle/adv_icn_close@3x.png</key>
-		<data>
-		BRKpWcE4GhWNGweuhzEBZoKTUGw=
-		</data>
-		<key>YSAdvSDK.bundle/icn_close_white@2x.png</key>
-		<data>
-		AKdhuYIOizC5azG8owH3CAFJ5eY=
-		</data>
-		<key>YSAdvSDK.bundle/icn_close_white@3x.png</key>
-		<data>
-		l1oBfozguoa0Z/bhOvvtombXYcg=
-		</data>
-		<key>YSAdvSDK.bundle/icn_light@2x.png</key>
-		<data>
-		UlAeye6NAW4ShcnmeItP1xTXRpM=
-		</data>
-		<key>YSAdvSDK.bundle/icn_volume_off@2x.png</key>
-		<data>
-		Wvmd04+IlaR3nB2iBxd9TVCmYGY=
-		</data>
-		<key>YSAdvSDK.bundle/icn_volume_off@3x.png</key>
-		<data>
-		U6og/bZxxP++CerTh823HhpOuJE=
-		</data>
-		<key>YSAdvSDK.bundle/icn_volume_on@2x.png</key>
-		<data>
-		PtYWC60ClTDoo5P071dIs2Zv2ug=
-		</data>
-		<key>YSAdvSDK.bundle/icn_volume_on@3x.png</key>
-		<data>
-		WU0Dykzt1ZuJ4pLdgCbMMDDrD6s=
 		</data>
 		<key>baidumobadsdk.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1991,11 +1943,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KY6PZM53tc5XrHZqmC9p629y+rg=
+			NdWIBtgGcJ52mdjBM8wybSMG7Fk=
 			</data>
 			<key>hash2</key>
 			<data>
-			in400z01yxlKbzeAvtiiV4QYV3KsmtEMm0SLVGF9k1E=
+			x5j8DS4z6c0xMoIMkokoALrtni0dPsYAtG8Tf8lQZKM=
 			</data>
 		</dict>
 		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
@@ -2046,11 +1998,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jorKEQEyoLVz58us7LDXXpDprBY=
+			tw3HsPt41zKI1c9IeU6Zw8m88ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fra5GXCGGpGu4ovNxqCGxluaBpgNdyeuNZKIpQXOCUo=
+			ajoQ8kxTlqx26BCP1SoMGgz5A/XCnkZUq9pS1/QqE9Q=
 			</data>
 		</dict>
 		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
@@ -2167,11 +2119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3JOGQ1iGidFiTmFYCnhcMsxN4vg=
+			Lv1VI55Bff2CykYAGRwxQnx5OQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bM5kRTt9hVb1q5nkPT2pJ3EqeIqnGMK/6MSO+f7buHM=
+			NYqsaT6FqVxtq1sN/EXSDMI77IPh8BQYziijM31XfHo=
 			</data>
 		</dict>
 		<key>Headers/EmAdNativeExpress.h</key>
@@ -2403,138 +2355,6 @@
 			<key>hash2</key>
 			<data>
 			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0Hslc2Th587sIVNL5n3p3gyaE/4=
-			</data>
-			<key>hash2</key>
-			<data>
-			4rfW0qBDMYSys0GaS/4NZQsZ2HipnV+iNsJGwnrdBJk=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/advData.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZbFztkHu3c7RTdZMDy06xh2YJkg=
-			</data>
-			<key>hash2</key>
-			<data>
-			DCYRlsrYsolparb3kBFfzUXLOcjfgmJyNVHJrBOOhVI=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/advData2.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FUPZFfqMHmjUfAhU0oj60rJycds=
-			</data>
-			<key>hash2</key>
-			<data>
-			VRQdM0NHraarmozDQ54rTFP9OicgHlQ5PfRTS9EIMOk=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/adv_icn_close@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z4MaWgbmxxDnyu1z1w6+5RPBaC0=
-			</data>
-			<key>hash2</key>
-			<data>
-			nTc4Uz/pPwxHjsMGmKSUEmbwv1kygZEDXRbyzABq28c=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/adv_icn_close@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BRKpWcE4GhWNGweuhzEBZoKTUGw=
-			</data>
-			<key>hash2</key>
-			<data>
-			JsY/7/C6nBBjKI4LtRyCmGWkcbLvO1u8UKtVUXMeMfY=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_close_white@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AKdhuYIOizC5azG8owH3CAFJ5eY=
-			</data>
-			<key>hash2</key>
-			<data>
-			+sOqqkBAum7CgbTBKvelCScR2SBHecpoPHyi5Id1UH8=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_close_white@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l1oBfozguoa0Z/bhOvvtombXYcg=
-			</data>
-			<key>hash2</key>
-			<data>
-			pZiPZZCfM+Fp8B0W83gWzsfiK3LiYG1sZKg5XuK/weI=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_light@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UlAeye6NAW4ShcnmeItP1xTXRpM=
-			</data>
-			<key>hash2</key>
-			<data>
-			P6oftlDsJBVLQWGxwoJpj2PeTK5BWn2nLcyJZJTi2vE=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_volume_off@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Wvmd04+IlaR3nB2iBxd9TVCmYGY=
-			</data>
-			<key>hash2</key>
-			<data>
-			tC0LSy+JOJ2LCo5paPWNQIKSwR9eJSV1lBbArp98V4Y=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_volume_off@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			U6og/bZxxP++CerTh823HhpOuJE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZdencBFcSIM2DXt+SGnY++Fytl8OthEqfz4ldTj9k0M=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_volume_on@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PtYWC60ClTDoo5P071dIs2Zv2ug=
-			</data>
-			<key>hash2</key>
-			<data>
-			qL6lBxnIdi8m7HTn1D1FZ/zemk2TLsDgihs5JWIdrBk=
-			</data>
-		</dict>
-		<key>YSAdvSDK.bundle/icn_volume_on@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WU0Dykzt1ZuJ4pLdgCbMMDDrD6s=
-			</data>
-			<key>hash2</key>
-			<data>
-			LtkQWaiUckndVDxUtKOmr+ThPxV1x05FLUzm9weS7YQ=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/PrivacyInfo.xcprivacy</key>
