@@ -409,34 +409,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Frameworks/GDTMobSDK.framework/GDTMobSDK</key>
-		<data>
-		NdWIBtgGcJ52mdjBM8wybSMG7Fk=
-		</data>
-		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
-		<data>
-		Z6eSFXbd1aQYNCdcpbeJZawHRBs=
-		</data>
-		<key>Frameworks/GDTMobSDK.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		LhccXD/RWLUzD+GeIC+QN4WyVT8=
-		</data>
-		<key>Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		aseFbvoKxKbGVgO/6fotuVUMxzw=
-		</data>
-		<key>Frameworks/Tquic.framework/Info.plist</key>
-		<data>
-		avhauuw3saOMZSSE4yYo+sw1Sw8=
-		</data>
-		<key>Frameworks/Tquic.framework/Tquic</key>
-		<data>
-		tw3HsPt41zKI1c9IeU6Zw8m88ys=
-		</data>
-		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
-		<data>
-		MmhKmLNLJNYm9aO9eEkh2hy98QA=
-		</data>
 		<key>Headers/EmAdBanner.h</key>
 		<data>
 		DGGKMiyY1LMllsRsM8ObHn+OIkI=
@@ -1938,83 +1910,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>Frameworks/GDTMobSDK.framework/GDTMobSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NdWIBtgGcJ52mdjBM8wybSMG7Fk=
-			</data>
-			<key>hash2</key>
-			<data>
-			x5j8DS4z6c0xMoIMkokoALrtni0dPsYAtG8Tf8lQZKM=
-			</data>
-		</dict>
-		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z6eSFXbd1aQYNCdcpbeJZawHRBs=
-			</data>
-			<key>hash2</key>
-			<data>
-			Gm/zYWkrZLWvUAL/mKFdqnRS/D4JaJO07X2NCoWDfZA=
-			</data>
-		</dict>
-		<key>Frameworks/GDTMobSDK.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LhccXD/RWLUzD+GeIC+QN4WyVT8=
-			</data>
-			<key>hash2</key>
-			<data>
-			577SLoCL0TvO5BQdAUs1jtykHT7zRPIP/6Y9ladCyAQ=
-			</data>
-		</dict>
-		<key>Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aseFbvoKxKbGVgO/6fotuVUMxzw=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hma3ynfPnvouYbGQpRzm2V2jcgzrbIn0KhnnPeOGEpQ=
-			</data>
-		</dict>
-		<key>Frameworks/Tquic.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			avhauuw3saOMZSSE4yYo+sw1Sw8=
-			</data>
-			<key>hash2</key>
-			<data>
-			uBvmwxTYlJkybAe6rA/1ZtRZhjm3zJEcxMVOL5Q27mU=
-			</data>
-		</dict>
-		<key>Frameworks/Tquic.framework/Tquic</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tw3HsPt41zKI1c9IeU6Zw8m88ys=
-			</data>
-			<key>hash2</key>
-			<data>
-			ajoQ8kxTlqx26BCP1SoMGgz5A/XCnkZUq9pS1/QqE9Q=
-			</data>
-		</dict>
-		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MmhKmLNLJNYm9aO9eEkh2hy98QA=
-			</data>
-			<key>hash2</key>
-			<data>
-			GuFkMMsV/N7QZtWnCpJANsqtPpZhfy4drmoCy6jk1Oo=
-			</data>
 		</dict>
 		<key>Headers/EmAdBanner.h</key>
 		<dict>
