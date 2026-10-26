@@ -62,6 +62,7 @@ typedef enum : NSUInteger {
     ChannelAdFromTypeKS = 4, //  快手
     ChannelAdFromTypeYM = 9, //  亿盟
     ChannelAdFromTypeYXB = 10, //  易效宝
+    ChannelAdFromTypeZAIXIN = 15, //  宅心
 } ChannelAdFromType;
 
 
