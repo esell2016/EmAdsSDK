@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EmAds
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EmAds
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AdSupport
 import AppTrackingTransparency
 import CommonCrypto
@@ -16,66 +16,94 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers open class zbXzicDzJHbbGMvR {
-  required public init?(map: EmAds.hLbJnPSeksGHWuyf)
-  open func mapping(map: EmAds.hLbJnPSeksGHWuyf)
+@_hasMissingDesignatedInitializers open class jnzgtPjyYEiqFzoD {
+  #if compiler(>=5.3) && $NonescapableTypes
+  required public init?(map: EmAds.PnplwdtyFVlEFlVU)
+  #endif
+  open func mapping(map: EmAds.PnplwdtyFVlEFlVU)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class ubUMNGndPSQJxbwM : ObjectiveC.NSObject, EmAds.TransformType {
+@objc @_inheritsConvenienceInitializers final public class qTSgKFOszligMnLb : ObjectiveC.NSObject, EmAds.TransformType {
   public typealias Object = Swift.String
   public typealias JSON = Swift.String
   @objc override dynamic public init()
-  final public func transformFromJSON(_ value: Any?) -> EmAds.ubUMNGndPSQJxbwM.Object?
-  final public func transformToJSON(_ value: EmAds.ubUMNGndPSQJxbwM.Object?) -> EmAds.ubUMNGndPSQJxbwM.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformFromJSON(_ value: Any?) -> EmAds.qTSgKFOszligMnLb.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformToJSON(_ value: EmAds.qTSgKFOszligMnLb.Object?) -> EmAds.qTSgKFOszligMnLb.JSON?
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class qtqpqoftWQJmXUTy : ObjectiveC.NSObject, EmAds.TransformType {
+@objc @_inheritsConvenienceInitializers final public class tavAAaEMcexjZsNo : ObjectiveC.NSObject, EmAds.TransformType {
   public typealias Object = Swift.Bool
   public typealias JSON = Swift.String
   @objc override dynamic public init()
-  final public func transformFromJSON(_ value: Any?) -> EmAds.qtqpqoftWQJmXUTy.Object?
-  final public func transformToJSON(_ value: EmAds.qtqpqoftWQJmXUTy.Object?) -> EmAds.qtqpqoftWQJmXUTy.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformFromJSON(_ value: Any?) -> EmAds.tavAAaEMcexjZsNo.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformToJSON(_ value: EmAds.tavAAaEMcexjZsNo.Object?) -> EmAds.tavAAaEMcexjZsNo.JSON?
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class qZkPnYqqzpbghXDx : ObjectiveC.NSObject, EmAds.TransformType {
+@objc @_inheritsConvenienceInitializers final public class NRtNCgRNpZGlguTB : ObjectiveC.NSObject, EmAds.TransformType {
   public typealias Object = Swift.Int64
   public typealias JSON = Swift.String
   @objc override dynamic public init()
-  final public func transformFromJSON(_ value: Any?) -> EmAds.qZkPnYqqzpbghXDx.Object?
-  final public func transformToJSON(_ value: EmAds.qZkPnYqqzpbghXDx.Object?) -> EmAds.qZkPnYqqzpbghXDx.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformFromJSON(_ value: Any?) -> EmAds.NRtNCgRNpZGlguTB.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformToJSON(_ value: EmAds.NRtNCgRNpZGlguTB.Object?) -> EmAds.NRtNCgRNpZGlguTB.JSON?
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class EnHaBYCeobRTlMhb : ObjectiveC.NSObject, EmAds.TransformType {
+@objc @_inheritsConvenienceInitializers final public class hAjzRHVAnEjwnBoA : ObjectiveC.NSObject, EmAds.TransformType {
   public typealias Object = Swift.Int
   public typealias JSON = Swift.String
   @objc override dynamic public init()
-  final public func transformFromJSON(_ value: Any?) -> EmAds.EnHaBYCeobRTlMhb.Object?
-  final public func transformToJSON(_ value: EmAds.EnHaBYCeobRTlMhb.Object?) -> EmAds.EnHaBYCeobRTlMhb.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformFromJSON(_ value: Any?) -> EmAds.hAjzRHVAnEjwnBoA.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformToJSON(_ value: EmAds.hAjzRHVAnEjwnBoA.Object?) -> EmAds.hAjzRHVAnEjwnBoA.JSON?
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class tPJUrfUEFPWbZEWi : ObjectiveC.NSObject, EmAds.TransformType {
+@objc @_inheritsConvenienceInitializers final public class kViZcnXhmffloovA : ObjectiveC.NSObject, EmAds.TransformType {
   public typealias Object = Swift.Dictionary<Swift.String, Any>
   public typealias JSON = Swift.Dictionary<Swift.String, Any>
   @objc override dynamic public init()
-  final public func transformFromJSON(_ value: Any?) -> EmAds.tPJUrfUEFPWbZEWi.Object?
-  final public func transformToJSON(_ value: EmAds.tPJUrfUEFPWbZEWi.Object?) -> EmAds.tPJUrfUEFPWbZEWi.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformFromJSON(_ value: Any?) -> EmAds.kViZcnXhmffloovA.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func transformToJSON(_ value: EmAds.kViZcnXhmffloovA.Object?) -> EmAds.kViZcnXhmffloovA.JSON?
+  #endif
   @objc deinit
 }
-open class uIazzfFIyBbPtYKw : EmAds.TransformType {
+open class czAbbIfsWjKDZeIh : EmAds.TransformType {
   public typealias Object = Foundation.Date
   public typealias JSON = Swift.Double
   public enum Unit : Foundation.TimeInterval {
     case seconds
     case milliseconds
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Foundation.TimeInterval)
+    #endif
     public typealias RawValue = Foundation.TimeInterval
     public var rawValue: Foundation.TimeInterval {
       get
     }
   }
-  public init(unit: EmAds.uIazzfFIyBbPtYKw.Unit = .seconds)
+  public init(unit: EmAds.czAbbIfsWjKDZeIh.Unit = .seconds)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: Foundation.Date?) -> Swift.Double?
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers open class EmAdError : ObjectiveC.NSObject {
@@ -116,7 +144,9 @@ open class uIazzfFIyBbPtYKw : EmAds.TransformType {
   case loadFullScreenVideoAdError = 20990
   case unsuppurtIOSVersion = 20988
   case loadAdOnlyFirst = 20987
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -144,53 +174,78 @@ open class uIazzfFIyBbPtYKw : EmAds.TransformType {
 @objc public protocol EmRewardVideoDelegate : EmAds.EmBaseAdDelegate {
   @objc func onVideoCached()
   @objc func onVideoComplete()
-  #warning("目前没有跳过的操作")
   @objc func onVideoSkip()
   @objc func onAdReward()
-  #warning("目前没有集成此回调")
   @objc func onRewardServerInf(inf: EmAds.EARewardServerCallBackInf)
 }
 @objc public protocol EmFullScreenVideoDelegate : EmAds.EmBaseAdDelegate {
-  #warning("目前没有缓存的操作")
   @objc func onVideoCached()
   @objc func onVideoComplete()
   @objc func onVideoSkip()
 }
 @objc public protocol EmNativeExpressDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdSucceed(adViews: [EmAds.EmNativeExpressView]?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdClose(adView: EmAds.EmNativeExpressView?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdExposure(adView: EmAds.EmNativeExpressView?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
   @objc func onAdFailed(error: EmAds.EmAdError, nativeExpressAd: EmAds.EmNativeExpress)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdClicked(adView: EmAds.EmNativeExpressView?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdRenderSuccess(adView: EmAds.EmNativeExpressView?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onAdRenderFailed(adView: EmAds.EmNativeExpressView?, nativeExpressAd: EmAds.EmNativeExpress)
+  #endif
 }
-open class BUfKJgYDhILYbkaK<T> : EmAds.TransformType where T : Swift.Decodable, T : Swift.Encodable {
+open class EpkiiHHaQEQeeiwc<T> : EmAds.TransformType where T : Swift.Decodable, T : Swift.Encodable {
   public typealias Object = T
   public typealias JSON = Any
   public init()
-  open func transformFromJSON(_ value: Any?) -> EmAds.BUfKJgYDhILYbkaK<T>.Object?
+  #if compiler(>=5.3) && $NonescapableTypes
+  open func transformFromJSON(_ value: Any?) -> EmAds.EpkiiHHaQEQeeiwc<T>.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: T?) -> Any?
+  #endif
   @objc deinit
 }
 @objc @objcMembers open class EmRewardVideo : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, delegate: (any EmAds.EmRewardVideoDelegate)?)
+  #endif
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func show()
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
 @objc @objcMembers open class EmBanner : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, adContainer: UIKit.UIView!, delegate: (any EmAds.EmBannerDelegate)?)
+  #endif
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func show()
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
 public enum ReachabilityError : Swift.Error {
@@ -205,16 +260,16 @@ public let ReachabilityChangedNotification: Foundation.NSNotification.Name
 extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
-public class gbsLhJucytmkbmYQ {
-  public typealias NetworkReachable = (EmAds.gbsLhJucytmkbmYQ) -> ()
-  public typealias NetworkUnreachable = (EmAds.gbsLhJucytmkbmYQ) -> ()
+public class pBHMkCkRQqLEACLR {
+  public typealias NetworkReachable = (EmAds.pBHMkCkRQqLEACLR) -> ()
+  public typealias NetworkUnreachable = (EmAds.pBHMkCkRQqLEACLR) -> ()
   @available(*, unavailable, renamed: "Connection")
   public enum NetworkStatus : Swift.CustomStringConvertible {
     case notReachable, reachableViaWiFi, reachableViaWWAN
     public var description: Swift.String {
       get
     }
-    public static func == (a: EmAds.gbsLhJucytmkbmYQ.NetworkStatus, b: EmAds.gbsLhJucytmkbmYQ.NetworkStatus) -> Swift.Bool
+    public static func == (a: EmAds.pBHMkCkRQqLEACLR.NetworkStatus, b: EmAds.pBHMkCkRQqLEACLR.NetworkStatus) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -227,14 +282,14 @@ public class gbsLhJucytmkbmYQ {
     public var description: Swift.String {
       get
     }
-    public static func == (a: EmAds.gbsLhJucytmkbmYQ.Connection, b: EmAds.gbsLhJucytmkbmYQ.Connection) -> Swift.Bool
+    public static func == (a: EmAds.pBHMkCkRQqLEACLR.Connection, b: EmAds.pBHMkCkRQqLEACLR.Connection) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
-  public var whenReachable: EmAds.gbsLhJucytmkbmYQ.NetworkReachable?
-  public var whenUnreachable: EmAds.gbsLhJucytmkbmYQ.NetworkUnreachable?
+  public var whenReachable: EmAds.pBHMkCkRQqLEACLR.NetworkReachable?
+  public var whenUnreachable: EmAds.pBHMkCkRQqLEACLR.NetworkUnreachable?
   @available(*, deprecated, renamed: "allowsCellularConnection")
   final public let reachableOnWWAN: Swift.Bool
   public var allowsCellularConnection: Swift.Bool
@@ -244,18 +299,24 @@ public class gbsLhJucytmkbmYQ {
     get
   }
   @available(*, unavailable, renamed: "connection")
-  public var currentReachabilityStatus: EmAds.gbsLhJucytmkbmYQ.Connection {
+  public var currentReachabilityStatus: EmAds.pBHMkCkRQqLEACLR.Connection {
     get
   }
-  public var connection: EmAds.gbsLhJucytmkbmYQ.Connection {
+  public var connection: EmAds.pBHMkCkRQqLEACLR.Connection {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  #endif
   @objc deinit
 }
-extension EmAds.gbsLhJucytmkbmYQ {
+extension EmAds.pBHMkCkRQqLEACLR {
   public func startNotifier() throws
   public func stopNotifier()
   @available(*, deprecated, message: "Please use `connection != .none`")
@@ -277,85 +338,153 @@ extension EmAds.gbsLhJucytmkbmYQ {
 open class TransformOf<ObjectType, JSONType> : EmAds.TransformType {
   public typealias Object = ObjectType
   public typealias JSON = JSONType
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(fromJSON: @escaping (JSONType?) -> ObjectType?, toJSON: @escaping (ObjectType?) -> JSONType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> ObjectType?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: ObjectType?) -> JSONType?
+  #endif
   @objc deinit
 }
-public func <- <T>(left: inout T, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.SignedInteger
-public func <- <T>(left: inout T?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.SignedInteger
-public func <- <T>(left: inout T, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.UnsignedInteger
-public func <- <T>(left: inout T?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.UnsignedInteger
+public func <- <T>(left: inout T, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.SignedInteger
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout T?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.SignedInteger
+#endif
+public func <- <T>(left: inout T, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.UnsignedInteger
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout T?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.UnsignedInteger
+#endif
 public protocol BaseMappable {
-  mutating func mapping(map: EmAds.hLbJnPSeksGHWuyf)
+  mutating func mapping(map: EmAds.PnplwdtyFVlEFlVU)
 }
 public protocol Mappable : EmAds.BaseMappable {
-  init?(map: EmAds.hLbJnPSeksGHWuyf)
+  #if compiler(>=5.3) && $NonescapableTypes
+  init?(map: EmAds.PnplwdtyFVlEFlVU)
+  #endif
 }
 public protocol StaticMappable : EmAds.BaseMappable {
-  static func objectForMapping(map: EmAds.hLbJnPSeksGHWuyf) -> (any EmAds.BaseMappable)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  static func objectForMapping(map: EmAds.PnplwdtyFVlEFlVU) -> (any EmAds.BaseMappable)?
+  #endif
 }
 extension EmAds.Mappable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(JSONString: Swift.String, context: (any EmAds.MapContext)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(JSON: [Swift.String : Any], context: (any EmAds.MapContext)? = nil)
+  #endif
 }
 extension EmAds.BaseMappable {
   public func toJSON() -> [Swift.String : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
 }
 extension Swift.Array where Element : EmAds.BaseMappable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(JSONString: Swift.String, context: (any EmAds.MapContext)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(JSONArray: [[Swift.String : Any]], context: (any EmAds.MapContext)? = nil)
+  #endif
   public func toJSON() -> [[Swift.String : Any]]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
 }
 extension Swift.Set where Element : EmAds.BaseMappable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(JSONString: Swift.String, context: (any EmAds.MapContext)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(JSONArray: [[Swift.String : Any]], context: (any EmAds.MapContext)? = nil)
+  #endif
   public func toJSON() -> [[Swift.String : Any]]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
 }
-public func <- <Transform>(left: inout Transform.Object, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: Transform.Object, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout Transform.Object?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: Transform.Object?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout [Transform.Object], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [Transform.Object], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout [Transform.Object]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [Transform.Object]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout [Swift.String : Transform.Object], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [Swift.String : Transform.Object], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout [Swift.String : Transform.Object]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [Swift.String : Transform.Object]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout Transform.Object, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Transform.Object, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Transform.Object?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Transform.Object?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Array<Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Array<Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout Swift.Array<Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func >>> <Transform>(left: Swift.Array<Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
-public func <- <Transform>(left: inout [[Transform.Object]], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [[Transform.Object]], right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout [[Transform.Object]]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func >>> <Transform>(left: [[Transform.Object]]?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType
-public func <- <Transform>(left: inout Swift.Set<Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
-public func >>> <Transform>(left: Swift.Set<Transform.Object>, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
-public func <- <Transform>(left: inout Swift.Set<Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
-public func >>> <Transform>(left: Swift.Set<Transform.Object>?, right: (EmAds.hLbJnPSeksGHWuyf, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
+public func <- <Transform>(left: inout Transform.Object, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+public func >>> <Transform>(left: Transform.Object, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Transform.Object?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Transform.Object?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+public func <- <Transform>(left: inout [Transform.Object], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+public func >>> <Transform>(left: [Transform.Object], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout [Transform.Object]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: [Transform.Object]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+public func <- <Transform>(left: inout [Swift.String : Transform.Object], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+public func >>> <Transform>(left: [Swift.String : Transform.Object], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout [Swift.String : Transform.Object]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: [Swift.String : Transform.Object]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+public func <- <Transform>(left: inout Transform.Object, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+public func >>> <Transform>(left: Transform.Object, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Transform.Object?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Transform.Object?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+public func <- <Transform>(left: inout Swift.Array<Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+public func >>> <Transform>(left: Swift.Array<Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Swift.Array<Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Swift.Array<Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable
+#endif
+public func <- <Transform>(left: inout [[Transform.Object]], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+public func >>> <Transform>(left: [[Transform.Object]], right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout [[Transform.Object]]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: [[Transform.Object]]?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType
+#endif
+public func <- <Transform>(left: inout Swift.Set<Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
+public func >>> <Transform>(left: Swift.Set<Transform.Object>, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <Transform>(left: inout Swift.Set<Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <Transform>(left: Swift.Set<Transform.Object>?, right: (EmAds.PnplwdtyFVlEFlVU, Transform)) where Transform : EmAds.TransformType, Transform.Object : EmAds.BaseMappable, Transform.Object : Swift.Hashable
+#endif
 public protocol INS_ParseEngineProtocol {
-  static func parse<T>(type: T.Type, reponse response: Any) throws -> T where T : EmAds.zbXzicDzJHbbGMvR
+  static func parse<T>(type: T.Type, reponse response: Any) throws -> T where T : EmAds.jnzgtPjyYEiqFzoD
 }
 @_hasMissingDesignatedInitializers @objcMembers public class IEmDefaultParseEngine : EmAds.INS_ParseEngineProtocol {
-  public static func parse<T>(type: T.Type, reponse response: Any) throws -> T where T : EmAds.zbXzicDzJHbbGMvR
+  public static func parse<T>(type: T.Type, reponse response: Any) throws -> T where T : EmAds.jnzgtPjyYEiqFzoD
   @objc deinit
 }
 extension EmAds.INS_RxSwiftError : Swift.Error {
@@ -378,63 +507,121 @@ public enum MappingType {
     get
   }
 }
-final public class cVLdcDNGixSLQmhT<N> where N : EmAds.BaseMappable {
+final public class rOGLdunoYgvDKNuv<N> where N : EmAds.BaseMappable {
   final public var context: (any EmAds.MapContext)?
   final public var shouldIncludeNilValues: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(context: (any EmAds.MapContext)? = nil, shouldIncludeNilValues: Swift.Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func map(JSONObject: Any?, toObject object: N) -> N
+  #endif
   final public func map(JSONString: Swift.String, toObject object: N) -> N
   final public func map(JSON: [Swift.String : Any], toObject object: N) -> N
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func map(JSONString: Swift.String) -> N?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func map(JSONObject: Any?) -> N?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func map(JSON: [Swift.String : Any]) -> N?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapArray(JSONString: Swift.String) -> [N]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapArray(JSONObject: Any?) -> [N]?
+  #endif
   final public func mapArray(JSONArray: [[Swift.String : Any]]) -> [N]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionary(JSONString: Swift.String) -> [Swift.String : N]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionary(JSONObject: Any?) -> [Swift.String : N]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]]) -> [Swift.String : N]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionary(JSONObject: Any?, toDictionary dictionary: [Swift.String : N]) -> [Swift.String : N]
+  #endif
   final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]], toDictionary dictionary: [Swift.String : N]) -> [Swift.String : N]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionaryOfArrays(JSONObject: Any?) -> [Swift.String : [N]]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionaryOfArrays(JSON: [Swift.String : [[Swift.String : Any]]]) -> [Swift.String : [N]]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapArrayOfArrays(JSONObject: Any?) -> [[N]]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func parseJSONStringIntoDictionary(JSONString: Swift.String) -> [Swift.String : Any]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func parseJSONString(JSONString: Swift.String) -> Any?
+  #endif
   @objc deinit
 }
-extension EmAds.cVLdcDNGixSLQmhT {
+extension EmAds.rOGLdunoYgvDKNuv {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func map(JSONfile: Swift.String) -> N?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapArray(JSONfile: Swift.String) -> [N]?
+  #endif
 }
-extension EmAds.cVLdcDNGixSLQmhT {
+extension EmAds.rOGLdunoYgvDKNuv {
   final public func toJSON(_ object: N) -> [Swift.String : Any]
   final public func toJSONArray(_ array: [N]) -> [[Swift.String : Any]]
   final public func toJSONDictionary(_ dictionary: [Swift.String : N]) -> [Swift.String : [Swift.String : Any]]
   final public func toJSONDictionaryOfArrays(_ dictionary: [Swift.String : [N]]) -> [Swift.String : [[Swift.String : Any]]]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func toJSONString(_ object: N, prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func toJSONString(_ array: [N], prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func toJSONString(_ JSONObject: Any, prettyPrint: Swift.Bool) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func toJSONData(_ JSONObject: Any, options: Foundation.JSONSerialization.WritingOptions) -> Foundation.Data?
+  #endif
 }
-extension EmAds.cVLdcDNGixSLQmhT where N : Swift.Hashable {
+extension EmAds.rOGLdunoYgvDKNuv where N : Swift.Hashable {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapSet(JSONString: Swift.String) -> Swift.Set<N>?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapSet(JSONObject: Any?) -> Swift.Set<N>?
+  #endif
   final public func mapSet(JSONArray: [[Swift.String : Any]]) -> Swift.Set<N>
   final public func toJSONSet(_ set: Swift.Set<N>) -> [[Swift.String : Any]]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func toJSONString(_ set: Swift.Set<N>, prettyPrint: Swift.Bool = false) -> Swift.String?
+  #endif
 }
-open class axMtiJbjdAzbosuT : EmAds.TransformType {
+open class cZuhWCShZVCcJiao : EmAds.TransformType {
   public typealias Object = Foundation.NSDecimalNumber
   public typealias JSON = Swift.String
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> Foundation.NSDecimalNumber?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: Foundation.NSDecimalNumber?) -> Swift.String?
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers open class EmAdsSDK : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func initSDK(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, isDebug: Swift.Bool, emlAppId: Swift.String, resultHandler handler: ((EmAds.EmAdError) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func initSDK(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, isDebug: Swift.Bool, emlAppId: Swift.String, idfaEnabled: Swift.Bool, resultHandler handler: ((EmAds.EmAdError) -> Swift.Void)?)
+  #endif
   @objc open class func getVersion() -> Swift.String
   @objc open class func getBDVersion() -> Swift.String
   @objc open class func getGDTVersion() -> Swift.String
@@ -442,6 +629,7 @@ open class axMtiJbjdAzbosuT : EmAds.TransformType {
   @objc open class func getCSJVersion() -> Swift.String
   @objc open class func getYxbVersion() -> Swift.String
   @objc open class func getYmVersion() -> Swift.String
+  @objc open class func getZaixinVersion() -> Swift.String
   @objc open class func setSplashPlusAutoClose(timeInterval: Swift.Int)
   @objc open class func deviceId() -> Swift.String
   @objc open class func isSDKInitialSucceed() -> Swift.Bool
@@ -450,47 +638,91 @@ open class axMtiJbjdAzbosuT : EmAds.TransformType {
 }
 public struct DictionaryTransform<Key, Value> : EmAds.TransformType where Key : Swift.Hashable, Key : Swift.RawRepresentable, Value : EmAds.Mappable, Key.RawValue == Swift.String {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func transformFromJSON(_ value: Any?) -> [Key : Value]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func transformToJSON(_ value: [Key : Value]?) -> Any?
+  #endif
   public typealias JSON = Any
   public typealias Object = [Key : Value]
 }
 extension Foundation.DateFormatter {
   convenience public init(withFormat format: Swift.String, locale: Swift.String)
 }
-open class gZKzpRHQfZfWFWgr : EmAds.DateFormatterTransform {
+open class sTlvFNgqquGfMPVH : EmAds.DateFormatterTransform {
   public init()
   @objc deinit
 }
 public protocol ImmutableMappable : EmAds.BaseMappable {
-  init(map: EmAds.hLbJnPSeksGHWuyf) throws
+  init(map: EmAds.PnplwdtyFVlEFlVU) throws
 }
 extension EmAds.ImmutableMappable {
-  public func mapping(map: EmAds.hLbJnPSeksGHWuyf)
+  public func mapping(map: EmAds.PnplwdtyFVlEFlVU)
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(JSONString: Swift.String, context: (any EmAds.MapContext)? = nil) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(JSON: [Swift.String : Any], context: (any EmAds.MapContext)? = nil) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(JSONObject: Any, context: (any EmAds.MapContext)? = nil) throws
+  #endif
 }
-extension EmAds.hLbJnPSeksGHWuyf {
+extension EmAds.PnplwdtyFVlEFlVU {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> Transform.Object where Transform : EmAds.TransformType
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T where T : Swift.RawRepresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T? where T : Swift.RawRepresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T] where T : Swift.RawRepresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T]? where T : Swift.RawRepresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T? where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T] where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T]? where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Transform.Object] where Transform : EmAds.TransformType
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : T] where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : T]? where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : Transform.Object] where Transform : EmAds.TransformType
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[T]]? where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[T]] where T : EmAds.BaseMappable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[Transform.Object]] where Transform : EmAds.TransformType
+  #endif
 }
-extension EmAds.cVLdcDNGixSLQmhT where N : EmAds.ImmutableMappable {
+extension EmAds.rOGLdunoYgvDKNuv where N : EmAds.ImmutableMappable {
   final public func map(JSON: [Swift.String : Any]) throws -> N
   final public func map(JSONString: Swift.String) throws -> N
   final public func map(JSONObject: Any) throws -> N
@@ -498,15 +730,21 @@ extension EmAds.cVLdcDNGixSLQmhT where N : EmAds.ImmutableMappable {
   final public func mapArray(JSONString: Swift.String) throws -> [N]
   final public func mapArray(JSONObject: Any) throws -> [N]
   final public func mapDictionary(JSONString: Swift.String) throws -> [Swift.String : N]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionary(JSONObject: Any?) throws -> [Swift.String : N]
+  #endif
   final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]]) throws -> [Swift.String : N]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapDictionaryOfArrays(JSONObject: Any?) throws -> [Swift.String : [N]]
+  #endif
   final public func mapDictionaryOfArrays(JSON: [Swift.String : [[Swift.String : Any]]]) throws -> [Swift.String : [N]]
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func mapArrayOfArrays(JSONObject: Any?) throws -> [[N]]
+  #endif
 }
 public protocol MapContext {
 }
-final public class hLbJnPSeksGHWuyf {
+final public class PnplwdtyFVlEFlVU {
   final public let mappingType: EmAds.MappingType
   final public var JSON: [Swift.String : Any] {
     get
@@ -526,106 +764,158 @@ final public class hLbJnPSeksGHWuyf {
   final public var context: (any EmAds.MapContext)?
   final public var shouldIncludeNilValues: Swift.Bool
   final public let toObject: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(mappingType: EmAds.MappingType, JSON: [Swift.String : Any], toObject: Swift.Bool = false, context: (any EmAds.MapContext)? = nil, shouldIncludeNilValues: Swift.Bool = false)
-  final public subscript(key: Swift.String) -> EmAds.hLbJnPSeksGHWuyf {
+  #endif
+  final public subscript(key: Swift.String) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, delimiter delimiter: Swift.String) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, delimiter delimiter: Swift.String) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, nested nested: Swift.Bool) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, nested nested: Swift.Bool) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, nested nested: Swift.Bool, delimiter delimiter: Swift.String) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, nested nested: Swift.Bool, delimiter delimiter: Swift.String) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, nested nested: Swift.Bool, ignoreNil ignoreNil: Swift.Bool) -> EmAds.hLbJnPSeksGHWuyf {
+  final public subscript(key: Swift.String, nested nested: Swift.Bool, ignoreNil ignoreNil: Swift.Bool) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
-  final public subscript(key: Swift.String, nested nested: Swift.Bool?, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.hLbJnPSeksGHWuyf {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public subscript(key: Swift.String, nested nested: Swift.Bool?, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> EmAds.PnplwdtyFVlEFlVU {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func value<T>() -> T?
+  #endif
   @objc deinit
 }
-extension EmAds.hLbJnPSeksGHWuyf {
+extension EmAds.PnplwdtyFVlEFlVU {
   final public func value<T>(_ key: Swift.String, default: T.Object, using transform: T) throws -> T.Object where T : EmAds.TransformType
   final public func value<T>(_ key: Swift.String, default: T) throws -> T
   final public func value<T>(_ key: Swift.String, default: [T]) -> [T] where T : EmAds.BaseMappable
   final public func value<T>(_ key: Swift.String, default: T) throws -> T where T : EmAds.BaseMappable
 }
-open class hBSwSMvqGhVptCTk : EmAds.DateFormatterTransform {
+open class ysFhGZETwvZQUYHe : EmAds.DateFormatterTransform {
   public init(formatString: Swift.String)
   @objc deinit
 }
 public protocol TransformType {
   associatedtype Object
   associatedtype JSON
+  #if compiler(>=5.3) && $NonescapableTypes
   func transformFromJSON(_ value: Any?) -> Self.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func transformToJSON(_ value: Self.Object?) -> Self.JSON?
+  #endif
 }
-open class JQBodRUIxTIpVPKC : EmAds.TransformType {
+open class pQjUlDvdCIkJiGKh : EmAds.TransformType {
   public typealias Object = Foundation.Data
   public typealias JSON = Swift.String
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: Foundation.Data?) -> Swift.String?
+  #endif
   @objc deinit
 }
 @objc @objcMembers open class EmSplash : ObjectiveC.NSObject {
   @objc open var biddingSplashTimeout: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, delegate: (any EmAds.EmSplashDelegate)?)
+  #endif
   @objc public func setAdContainer(_ container: UIKit.UIView)
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func show()
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
 infix operator <- : DefaultPrecedence
 infix operator >>> : DefaultPrecedence
-public func <- <T>(left: inout T, right: EmAds.hLbJnPSeksGHWuyf)
-public func >>> <T>(left: T, right: EmAds.hLbJnPSeksGHWuyf)
-public func <- <T>(left: inout T?, right: EmAds.hLbJnPSeksGHWuyf)
-public func >>> <T>(left: T?, right: EmAds.hLbJnPSeksGHWuyf)
-public func <- <T>(left: inout T, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: T, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout T?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: T?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Dictionary<Swift.String, T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Dictionary<Swift.String, T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Array<T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Array<T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Array<T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Array<T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Array<Swift.Array<T>>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Array<Swift.Array<T>>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Array<Swift.Array<T>>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func >>> <T>(left: Swift.Array<Swift.Array<T>>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable
-public func <- <T>(left: inout Swift.Set<T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable, T : Swift.Hashable
-public func >>> <T>(left: Swift.Set<T>, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable, T : Swift.Hashable
-public func <- <T>(left: inout Swift.Set<T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable, T : Swift.Hashable
-public func >>> <T>(left: Swift.Set<T>?, right: EmAds.hLbJnPSeksGHWuyf) where T : EmAds.BaseMappable, T : Swift.Hashable
-open class kyFQLKbMJJfryket : EmAds.TransformType {
+public func <- <T>(left: inout T, right: EmAds.PnplwdtyFVlEFlVU)
+public func >>> <T>(left: T, right: EmAds.PnplwdtyFVlEFlVU)
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout T?, right: EmAds.PnplwdtyFVlEFlVU)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: T?, right: EmAds.PnplwdtyFVlEFlVU)
+#endif
+public func <- <T>(left: inout T, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+public func >>> <T>(left: T, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout T?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: T?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: Swift.Dictionary<Swift.String, T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+public func <- <T>(left: inout Swift.Array<T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+public func >>> <T>(left: Swift.Array<T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout Swift.Array<T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: Swift.Array<T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+public func <- <T>(left: inout Swift.Array<Swift.Array<T>>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+public func >>> <T>(left: Swift.Array<Swift.Array<T>>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout Swift.Array<Swift.Array<T>>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: Swift.Array<Swift.Array<T>>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable
+#endif
+public func <- <T>(left: inout Swift.Set<T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable, T : Swift.Hashable
+public func >>> <T>(left: Swift.Set<T>, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable, T : Swift.Hashable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout Swift.Set<T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable, T : Swift.Hashable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: Swift.Set<T>?, right: EmAds.PnplwdtyFVlEFlVU) where T : EmAds.BaseMappable, T : Swift.Hashable
+#endif
+open class ddivWEjTIRDHXlSy : EmAds.TransformType {
   public typealias Object = Foundation.URL
   public typealias JSON = Swift.String
   public init(shouldEncodeURLString: Swift.Bool = false, allowedCharacterSet: Foundation.CharacterSet = .urlQueryAllowed)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> Foundation.URL?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: Foundation.URL?) -> Swift.String?
+  #endif
   @objc deinit
 }
 @objc @objcMembers open class EmNativeExpress : ObjectiveC.NSObject {
@@ -635,40 +925,57 @@ open class kyFQLKbMJJfryket : EmAds.TransformType {
   @objc open var isLoaded: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, delegate: (any EmAds.EmNativeExpressDelegate)?, adSize: CoreFoundation.CGSize)
+  #endif
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers open class EmNativeExpressView : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var expressView: UIKit.UIView? {
     @objc get
   }
+  #endif
   @objc open func render()
-  #warning("当view 在界面展示后，上报的调用， 涉及到计费，必须在确保显示在界面的时候调用，否则可能有计费收益损失")
   @objc open func trackImpression()
   @objc open func destoryExpressView()
   @objc deinit
 }
 @objc @objcMembers open class EmInterstitial : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, delegate: (any EmAds.EmInterstitialDelegate)?)
+  #endif
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func show()
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
 public let kNotificationNameLogTextAppend2: Foundation.Notification.Name
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class XrExISokwypVaKqM : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class bTNAHAFZJtgduPuH : ObjectiveC.NSObject {
   @objc open class func showInWindow()
   @objc open class func removeLogInWindow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public class func rootWindow() -> UIKit.UIWindow?
+  #endif
   @objc public class func IS_BX() -> Swift.Bool
   @objc public class func bottomSafeArea() -> CoreFoundation.CGFloat
   @objc public class func navigationBarHeight() -> CoreFoundation.CGFloat
@@ -676,44 +983,72 @@ public let kNotificationNameLogTextAppend2: Foundation.Notification.Name
   @objc deinit
 }
 extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic open class func ins_imageWithColor(_ color: UIKit.UIColor) -> UIKit.UIImage?
+  #endif
 }
 @objc @objcMembers open class EmFullScreenVideo : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(viewController: UIKit.UIViewController!, delegate: (any EmAds.EmFullScreenVideoDelegate)?)
+  #endif
   @objc public func loadOnly()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadOnly(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc public func show()
   @objc public func destroy()
   @objc public func loadAndShow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func loadAndShow(_ emSlotId: Foundation.NSNumber? = nil)
+  #endif
   @objc deinit
 }
-open class JTYgxruxzgnDWESY : EmAds.TransformType {
+open class GdBSwUVPemIEBylW : EmAds.TransformType {
   public typealias Object = UIKit.UIColor
   public typealias JSON = Swift.String
   public init(prefixToJSON: Swift.Bool = false, alphaToJSON: Swift.Bool = false)
-  open func transformFromJSON(_ value: Any?) -> EmAds.JTYgxruxzgnDWESY.Object?
-  open func transformToJSON(_ value: EmAds.JTYgxruxzgnDWESY.Object?) -> EmAds.JTYgxruxzgnDWESY.JSON?
+  #if compiler(>=5.3) && $NonescapableTypes
+  open func transformFromJSON(_ value: Any?) -> EmAds.GdBSwUVPemIEBylW.Object?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  open func transformToJSON(_ value: EmAds.GdBSwUVPemIEBylW.Object?) -> EmAds.GdBSwUVPemIEBylW.JSON?
+  #endif
   @objc deinit
 }
-public func <- <T>(left: inout T, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: T, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func <- <T>(left: inout T?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: T?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func <- <T>(left: inout [T], right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: [T], right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func <- <T>(left: inout [T]?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: [T]?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func <- <T>(left: inout [Swift.String : T], right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: [Swift.String : T], right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func <- <T>(left: inout [Swift.String : T]?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-public func >>> <T>(left: [Swift.String : T]?, right: EmAds.hLbJnPSeksGHWuyf) where T : Swift.RawRepresentable
-open class GHuOoZYDlGezNZof<T> : EmAds.TransformType where T : Swift.RawRepresentable {
+public func <- <T>(left: inout T, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+public func >>> <T>(left: T, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout T?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: T?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+public func <- <T>(left: inout [T], right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+public func >>> <T>(left: [T], right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout [T]?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: [T]?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+public func <- <T>(left: inout [Swift.String : T], right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+public func >>> <T>(left: [Swift.String : T], right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#if compiler(>=5.3) && $NonescapableTypes
+public func <- <T>(left: inout [Swift.String : T]?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+public func >>> <T>(left: [Swift.String : T]?, right: EmAds.PnplwdtyFVlEFlVU) where T : Swift.RawRepresentable
+#endif
+open class GdClbWnAFWTPBhvt<T> : EmAds.TransformType where T : Swift.RawRepresentable {
   public typealias Object = T
   public typealias JSON = T.RawValue
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> T?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: T?) -> T.RawValue?
+  #endif
   @objc deinit
 }
 open class DateFormatterTransform : EmAds.TransformType {
@@ -721,8 +1056,12 @@ open class DateFormatterTransform : EmAds.TransformType {
   public typealias JSON = Swift.String
   final public let dateFormatter: Foundation.DateFormatter
   public init(dateFormatter: Foundation.DateFormatter)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformFromJSON(_ value: Any?) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func transformToJSON(_ value: Foundation.Date?) -> Swift.String?
+  #endif
   @objc deinit
 }
 public struct MapError : Swift.Error {
@@ -732,26 +1071,28 @@ public struct MapError : Swift.Error {
   public var file: Swift.StaticString?
   public var function: Swift.StaticString?
   public var line: Swift.UInt?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(key: Swift.String?, currentValue: Any?, reason: Swift.String?, file: Swift.StaticString? = nil, function: Swift.StaticString? = nil, line: Swift.UInt? = nil)
+  #endif
 }
 extension EmAds.MapError : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
 }
-extension EmAds.zbXzicDzJHbbGMvR : EmAds.Mappable {}
-extension EmAds.uIazzfFIyBbPtYKw.Unit : Swift.Equatable {}
-extension EmAds.uIazzfFIyBbPtYKw.Unit : Swift.Hashable {}
-extension EmAds.uIazzfFIyBbPtYKw.Unit : Swift.RawRepresentable {}
+extension EmAds.jnzgtPjyYEiqFzoD : EmAds.Mappable {}
+extension EmAds.czAbbIfsWjKDZeIh.Unit : Swift.Equatable {}
+extension EmAds.czAbbIfsWjKDZeIh.Unit : Swift.Hashable {}
+extension EmAds.czAbbIfsWjKDZeIh.Unit : Swift.RawRepresentable {}
 extension EmAds.EmAdErrorCode : Swift.Equatable {}
 extension EmAds.EmAdErrorCode : Swift.Hashable {}
 extension EmAds.EmAdErrorCode : Swift.RawRepresentable {}
 @available(*, unavailable, renamed: "Connection")
-extension EmAds.gbsLhJucytmkbmYQ.NetworkStatus : Swift.Equatable {}
+extension EmAds.pBHMkCkRQqLEACLR.NetworkStatus : Swift.Equatable {}
 @available(*, unavailable, renamed: "Connection")
-extension EmAds.gbsLhJucytmkbmYQ.NetworkStatus : Swift.Hashable {}
-extension EmAds.gbsLhJucytmkbmYQ.Connection : Swift.Equatable {}
-extension EmAds.gbsLhJucytmkbmYQ.Connection : Swift.Hashable {}
+extension EmAds.pBHMkCkRQqLEACLR.NetworkStatus : Swift.Hashable {}
+extension EmAds.pBHMkCkRQqLEACLR.Connection : Swift.Equatable {}
+extension EmAds.pBHMkCkRQqLEACLR.Connection : Swift.Hashable {}
 extension EmAds.INS_RxSwiftError : Swift.Equatable {}
 extension EmAds.INS_RxSwiftError : Swift.Hashable {}
 extension EmAds.MappingType : Swift.Equatable {}
