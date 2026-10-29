@@ -475,7 +475,7 @@
 		</dict>
 		<key>Frameworks/GDTMobSDK.framework/GDTMobSDK</key>
 		<data>
-		jajRzt0AzD6llyXZ/dCL4baNoyc=
+		rmEdIjuhyeT047Bwwfa/l3sSokY=
 		</data>
 		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
 		<data>
@@ -495,7 +495,7 @@
 		</data>
 		<key>Frameworks/Tquic.framework/Tquic</key>
 		<data>
-		71M+LMFRoq7asOmVTwdmEuruXMA=
+		ypIciEttFYC6/+xcCpBNJs7QJPE=
 		</data>
 		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -2639,11 +2639,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jajRzt0AzD6llyXZ/dCL4baNoyc=
+			rmEdIjuhyeT047Bwwfa/l3sSokY=
 			</data>
 			<key>hash2</key>
 			<data>
-			XWGOfzD7GiOrmm6ltk8v4U3DdtF+lisr7LC9dTtzGEw=
+			pFtdSfb0EJRYeSq3guI89U3VHtM2AcdTe/emMWDXfE4=
 			</data>
 		</dict>
 		<key>Frameworks/GDTMobSDK.framework/Info.plist</key>
@@ -2694,11 +2694,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			71M+LMFRoq7asOmVTwdmEuruXMA=
+			ypIciEttFYC6/+xcCpBNJs7QJPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			D4xWzRZEPbc6D3vIp3nicfBkimaFWepszUJ+CC/OXlA=
+			q+gXjjXFB0N/7ydJymItoYI37LiOuy3jcfIjwSSKZlA=
 			</data>
 		</dict>
 		<key>Frameworks/Tquic.framework/_CodeSignature/CodeResources</key>
